@@ -1,0 +1,131 @@
+[
+  {
+    "id": "case_01",
+    "question": "Who does Toyota's anti-bribery policy apply to?",
+    "expected_answer": "It applies to all team members, team leaders, and the company board of directors.",
+    "expected_context": "This Policy applies to all team members and team leaders, and to the board of directors of the Company.",
+    "source": "data/standardized/legal/toyota_global_abac_policy.md"
+  },
+  {
+    "id": "case_02",
+    "question": "Are facilitation payments permitted under Toyota's anti-bribery policy?",
+    "expected_answer": "No. Facilitation payments are prohibited.",
+    "expected_context": "Facilitation payments are also prohibited.",
+    "source": "data/standardized/legal/toyota_global_abac_policy.md"
+  },
+  {
+    "id": "case_03",
+    "question": "Can employees use personal funds for benefits prohibited by the anti-bribery policy?",
+    "expected_answer": "No. Personal funds cannot be used to provide otherwise prohibited benefits.",
+    "expected_context": "You cannot use personal funds to provide anything of value that would be otherwise prohibited.",
+    "source": "data/standardized/legal/toyota_global_abac_policy.md"
+  },
+  {
+    "id": "case_04",
+    "question": "Who can contact Toyota's Global Speak Up Line?",
+    "expected_answer": "Anyone can contact the Global Speak Up Line.",
+    "expected_context": "Anyone can contact the Global Speak Up Line.",
+    "source": "data/standardized/legal/toyota_global_speakup_policy.md"
+  },
+  {
+    "id": "case_05",
+    "question": "Does the Speak Up policy prevent reporting potential violations directly to law enforcement?",
+    "expected_answer": "No. Team members may report potential legal violations directly to regulators or law enforcement.",
+    "expected_context": "Nothing in this Policy prohibits a team member from reporting potential violations of law directly to a regulator or to law enforcement.",
+    "source": "data/standardized/legal/toyota_global_speakup_policy.md"
+  },
+  {
+    "id": "case_06",
+    "question": "How should team members cooperate during Speak Up investigations?",
+    "expected_answer": "They should fully cooperate and answer questions truthfully.",
+    "expected_context": "During these investigations, team members should fully cooperate and respond truthfully to questions.",
+    "source": "data/standardized/legal/toyota_global_speakup_policy.md"
+  },
+  {
+    "id": "case_07",
+    "question": "What does Toyota do when national and international human rights standards differ?",
+    "expected_answer": "It adopts the higher standard; if standards conflict, it strives to respect internationally recognized human rights to the greatest extent possible.",
+    "expected_context": "In operations where there is a difference between the national and international standard for human rights, we will adopt the higher standard of the two. If there is conflict between the standards, then we will strive to the utmost to respect internationally recognized human rights to the greatest extent possible.",
+    "source": "data/standardized/legal/toyota_human_rights_policy.md"
+  },
+  {
+    "id": "case_08",
+    "question": "What corrective action does Toyota promise if it caused or contributed to an adverse human rights impact?",
+    "expected_answer": "It will immediately implement corrective measures.",
+    "expected_context": "If it is certain that we have caused or contributed to an adverse impact on human rights, we shall immediately implement corrective measures.",
+    "source": "data/standardized/legal/toyota_human_rights_policy.md"
+  },
+  {
+    "id": "case_09",
+    "question": "When was Toyota's Human Rights Policy approved by its board?",
+    "expected_answer": "September 29, 2021.",
+    "expected_context": "This policy was approved by the Board of Directors of Toyota Motor Corporation on September 29, 2021.",
+    "source": "data/standardized/legal/toyota_human_rights_policy.md"
+  },
+  {
+    "id": "case_10",
+    "question": "What requirements does Toyota's Information Security Policy say it will comply with?",
+    "expected_answer": "Applicable laws, governmental guidance, contractual obligations, and other social norms related to information security.",
+    "expected_context": "Toyota shall comply with applicable laws, governmental guidance, contractual obligations and other social norms related to information security.",
+    "source": "data/standardized/legal/toyota_information_security_policy.md"
+  },
+  {
+    "id": "case_11",
+    "question": "How does Toyota's Information Security Policy support business continuity?",
+    "expected_answer": "Through management and protection of its Information Assets.",
+    "expected_context": "Toyota shall ensure competitiveness and business continuity through the management and protection of its Information Assets.",
+    "source": "data/standardized/legal/toyota_information_security_policy.md"
+  },
+  {
+    "id": "case_12",
+    "question": "What does Toyota establish for continuous information security management?",
+    "expected_answer": "Governance and risk management, including incident response.",
+    "expected_context": "Toyota shall continuously implement information security management through the establishment of governance and risk management including incident response.",
+    "source": "data/standardized/legal/toyota_information_security_policy.md"
+  },
+  {
+    "id": "case_13",
+    "question": "Who is responsible for Toyota's tax compliance?",
+    "expected_answer": "The Chief Financial Officer.",
+    "expected_context": "Tax compliance falls under the responsibility of the Chief Financial Officer.",
+    "source": "data/standardized/legal/toyota_tax_policy.md"
+  },
+  {
+    "id": "case_14",
+    "question": "How does Toyota educate employees about complying with its tax policy?",
+    "expected_answer": "Through training and e-learning.",
+    "expected_context": "Toyota is committed to educating its employees on complying with its tax policy through trainings and e- learnings.",
+    "source": "data/standardized/legal/toyota_tax_policy.md"
+  },
+  {
+    "id": "case_15",
+    "question": "How does Toyota seek to eliminate double taxation when it occurs?",
+    "expected_answer": "By applying available national tax relief systems or the mutual agreement procedure in tax treaties.",
+    "expected_context": "When we face double taxation, we seek to eliminate it by applying available tax relief systems in each country or the mutual agreement procedure regulated in the tax treaties.",
+    "source": "data/standardized/legal/toyota_tax_policy.md"
+  },
+  {
+    "id": "case_16",
+    "question": "In Toyota's 2023 cloud settings incident notice, were vehicle location and credit card data included in the exposed information?",
+    "expected_answer": "No. Toyota stated that vehicle location and credit card information were not included in that incident.",
+    "expected_context": "Vehicle location, credit card information, etc., are not included in this incident",
+    "source": "data/standardized/news/article_01.md",
+    "category": "source_confusion"
+  },
+  {
+    "id": "case_17",
+    "question": "Could the Lexus multimedia vulnerabilities described by Keen Lab take over steering, braking, or throttle?",
+    "expected_answer": "No. Toyota said the findings and exploit process did not control steering, braking, or throttle.",
+    "expected_context": "The vulnerability findings and exploit process, as described by Keen Lab, do not control steering, braking, or throttle.",
+    "source": "data/standardized/news/article_02.md",
+    "category": "semantic"
+  },
+  {
+    "id": "case_18",
+    "question": "In Toyota's recurrence prevention report to MLIT, which executive role oversees certification decisions rather than development decisions?",
+    "expected_answer": "The Global Chief Quality Officer (G-CQO) oversees certification decisions; the Chief Technology Officer (CTO) oversees development decisions.",
+    "expected_context": "The Chief Technology Officer (CTO) will be the person responsible for overall decision-making regarding development, and the Global Chief Quality Officer (G-CQO) will be responsible for overall decision-making regarding certification.",
+    "source": "data/standardized/news/article_03.md",
+    "category": "source_confusion"
+  }
+]

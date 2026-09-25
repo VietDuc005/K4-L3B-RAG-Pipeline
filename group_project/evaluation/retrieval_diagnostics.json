@@ -1,0 +1,1249 @@
+{
+  "timestamp": "2026-09-25T05:34:45.742889+00:00",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "top_k": 5,
+  "score_threshold": -1.0,
+  "pageindex_enabled": false,
+  "case_count": 18,
+  "document_count": 10,
+  "chunk_count": 611,
+  "corpus_sha256": "b8f7fac36e5e768298e1a79439449a5fe0b711181f54949e295e2e1f34f38780",
+  "corpus_commit": "00e0c435c96ec792c9804a1d582f6afeb1696867",
+  "golden_sha256": "20895208f5294c03baff9b38fd284610cbda9c9a038c6ad56b842b8705a294e3",
+  "summary": {
+    "A": {
+      "expected_source_hit": 18,
+      "exact_evidence_hit": 13
+    },
+    "B": {
+      "expected_source_hit": 18,
+      "exact_evidence_hit": 15
+    }
+  },
+  "rows": [
+    {
+      "id": "case_01",
+      "category": "policy",
+      "question": "Who does Toyota's anti-bribery policy apply to?",
+      "config": "A",
+      "expected_source": "toyota_global_abac_policy.md",
+      "expected_context": "This Policy applies to all team members and team leaders, and to the board of directors of the Company.",
+      "source_rank": 1,
+      "evidence_rank": null,
+      "evidence_coverage": 0.571,
+      "source_ids": [
+        "legal/toyota_global_abac_policy.md::chunk-54",
+        "legal/toyota_global_abac_policy.md::chunk-7",
+        "legal/toyota_global_abac_policy.md::chunk-44",
+        "legal/toyota_global_abac_policy.md::chunk-0",
+        "legal/toyota_global_abac_policy.md::chunk-36"
+      ],
+      "source_paths": [
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md"
+      ],
+      "retrieved_contexts": [
+        "please visit https://global.toyota/pages/global_toyota/company/vision-and-philosophy/en_Global_ABAC_Policy.pdf\n\nTOYOTA GLOBAL ANTI-BRIBERY AND ANTI-CORRUPTION POLICY   |     9",
+        "TOYOTA GLOBAL ANTI-BRIBERY AND ANTI-CORRUPTION POLICY   |     2\n\n\f1.  Purpose\n\nToyota Motor Corporation and its consolidated subsidiaries are committed to the highest standards\n\nof integrity in our business practices. (Toyota Motor Corporation and its consolidated subsidiaries are\n\nreferred to all together in this policy as the “Company” or “Toyota.”) We comply with applicable anti-\n\nbribery and anti-corruption laws and regulations in all countries where the Company does business.",
+        "support can be requested by contacting a Help Resource.\n\nTOYOTA GLOBAL ANTI-BRIBERY AND ANTI-CORRUPTION POLICY   |     7\n\n\fMenu\n\n7.  Speak Up Line Resources\n\nIf you see, hear or are concerned about any conduct that violates this Policy, you can contact the\n\nSpeak Up Line.\n\nWhen asking a question or raising a concern, you do not need to have all the details or be certain\n\nthat wrongdoing has occurred. It is important to raise the issue so the Company can address it in",
+        "Toyota Global Anti-Bribery and\nAnti-Corruption Policy\n\nEffective date: October 2023\n\n\fMenu\n\n1.  Purpose . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3\n\n2.  Scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3",
+        "•  Overseeing the relationship with a third party in which a family member, romantic partner or close\n\nfriend is the key decision maker; and\n\n•  Receiving a gift from a third party while negotiating a contractual relationship on Toyota’s behalf.\n\nIf you are not sure if a prior or current relationship with any current or former government official\n\ncould cause a conflict of interest, please contact a Help Resource.\n\nTOYOTA GLOBAL ANTI-BRIBERY AND ANTI-CORRUPTION POLICY   |     6\n\n\fMenu"
+      ],
+      "latency_seconds": 0.031,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_01",
+      "category": "policy",
+      "question": "Who does Toyota's anti-bribery policy apply to?",
+      "config": "B",
+      "expected_source": "toyota_global_abac_policy.md",
+      "expected_context": "This Policy applies to all team members and team leaders, and to the board of directors of the Company.",
+      "source_rank": 1,
+      "evidence_rank": null,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_global_abac_policy.md::chunk-54",
+        "legal/toyota_global_abac_policy.md::chunk-7",
+        "legal/toyota_global_abac_policy.md::chunk-29",
+        "legal/toyota_global_speakup_policy.md::chunk-5",
+        "legal/toyota_global_abac_policy.md::chunk-44"
+      ],
+      "source_paths": [
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md",
+        "toyota_global_speakup_policy.md",
+        "toyota_global_abac_policy.md"
+      ],
+      "retrieved_contexts": [
+        "please visit https://global.toyota/pages/global_toyota/company/vision-and-philosophy/en_Global_ABAC_Policy.pdf\n\nTOYOTA GLOBAL ANTI-BRIBERY AND ANTI-CORRUPTION POLICY   |     9",
+        "TOYOTA GLOBAL ANTI-BRIBERY AND ANTI-CORRUPTION POLICY   |     2\n\n\f1.  Purpose\n\nToyota Motor Corporation and its consolidated subsidiaries are committed to the highest standards\n\nof integrity in our business practices. (Toyota Motor Corporation and its consolidated subsidiaries are\n\nreferred to all together in this policy as the “Company” or “Toyota.”) We comply with applicable anti-\n\nbribery and anti-corruption laws and regulations in all countries where the Company does business.",
+        "suggestion or request of any government official if the purpose of the charitable contribution is to\n\nsecure an unfair advantage or otherwise obtain or retain business for the Company.\n\nTOYOTA GLOBAL ANTI-BRIBERY AND ANTI-CORRUPTION POLICY   |     5\n\n\fIf a personal contribution could be reasonably perceived as being made on behalf of the Company,\n\nseek guidance from a Help Resource before contributing. Particular care must be taken when",
+        "For team leaders, this Policy explains the Company’s expectations for handling a question or concern\n\nraised by a team member.\n\nThis Policy also confirms the Company’s commitment to non-retaliation. Toyota does not allow retaliation\n\nagainst anyone who raises a good-faith concern or question, or against anyone who cooperated with an\n\ninvestigation of potential misconduct.\n\n2.  Scope\n\nThis Policy applies to all team members and team leaders, and to the board of directors of the Company.",
+        "support can be requested by contacting a Help Resource.\n\nTOYOTA GLOBAL ANTI-BRIBERY AND ANTI-CORRUPTION POLICY   |     7\n\n\fMenu\n\n7.  Speak Up Line Resources\n\nIf you see, hear or are concerned about any conduct that violates this Policy, you can contact the\n\nSpeak Up Line.\n\nWhen asking a question or raising a concern, you do not need to have all the details or be certain\n\nthat wrongdoing has occurred. It is important to raise the issue so the Company can address it in"
+      ],
+      "latency_seconds": 0.04,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_02",
+      "category": "policy",
+      "question": "Are facilitation payments permitted under Toyota's anti-bribery policy?",
+      "config": "A",
+      "expected_source": "toyota_global_abac_policy.md",
+      "expected_context": "Facilitation payments are also prohibited.",
+      "source_rank": 1,
+      "evidence_rank": null,
+      "evidence_coverage": 0.2,
+      "source_ids": [
+        "legal/toyota_global_abac_policy.md::chunk-21",
+        "legal/toyota_global_abac_policy.md::chunk-54",
+        "legal/toyota_global_abac_policy.md::chunk-7",
+        "legal/toyota_global_abac_policy.md::chunk-29",
+        "legal/toyota_global_abac_policy.md::chunk-0"
+      ],
+      "source_paths": [
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md"
+      ],
+      "retrieved_contexts": [
+        "B.  Payments Made in Response to Threats\n\nThe safety of our team members is of paramount importance. In the unlikely situation that a team\n\nmember or someone with the team member is facing imminent physical danger and payment will\n\nTOYOTA GLOBAL ANTI-BRIBERY AND ANTI-CORRUPTION POLICY   |     4\n\n\fMenu\n\nhelp avoid that danger, payment is allowed. As soon as the threat has passed, report the issue\n\nto the relevant local divisions/departments. If a payment was made, the relevant local divisions/",
+        "please visit https://global.toyota/pages/global_toyota/company/vision-and-philosophy/en_Global_ABAC_Policy.pdf\n\nTOYOTA GLOBAL ANTI-BRIBERY AND ANTI-CORRUPTION POLICY   |     9",
+        "TOYOTA GLOBAL ANTI-BRIBERY AND ANTI-CORRUPTION POLICY   |     2\n\n\f1.  Purpose\n\nToyota Motor Corporation and its consolidated subsidiaries are committed to the highest standards\n\nof integrity in our business practices. (Toyota Motor Corporation and its consolidated subsidiaries are\n\nreferred to all together in this policy as the “Company” or “Toyota.”) We comply with applicable anti-\n\nbribery and anti-corruption laws and regulations in all countries where the Company does business.",
+        "suggestion or request of any government official if the purpose of the charitable contribution is to\n\nsecure an unfair advantage or otherwise obtain or retain business for the Company.\n\nTOYOTA GLOBAL ANTI-BRIBERY AND ANTI-CORRUPTION POLICY   |     5\n\n\fIf a personal contribution could be reasonably perceived as being made on behalf of the Company,\n\nseek guidance from a Help Resource before contributing. Particular care must be taken when",
+        "Toyota Global Anti-Bribery and\nAnti-Corruption Policy\n\nEffective date: October 2023\n\n\fMenu\n\n1.  Purpose . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3\n\n2.  Scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3"
+      ],
+      "latency_seconds": 0.016,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_02",
+      "category": "policy",
+      "question": "Are facilitation payments permitted under Toyota's anti-bribery policy?",
+      "config": "B",
+      "expected_source": "toyota_global_abac_policy.md",
+      "expected_context": "Facilitation payments are also prohibited.",
+      "source_rank": 1,
+      "evidence_rank": 1,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_global_abac_policy.md::chunk-16",
+        "legal/toyota_global_abac_policy.md::chunk-54",
+        "legal/toyota_global_abac_policy.md::chunk-21",
+        "legal/toyota_global_abac_policy.md::chunk-7",
+        "legal/toyota_global_abac_policy.md::chunk-49"
+      ],
+      "source_paths": [
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md"
+      ],
+      "retrieved_contexts": [
+        "a Help Resource or a Speak Up Line Resource.\n\nA.  Our Policy Against Bribery\n\nYou are prohibited from engaging in bribery or any other form of corruption. Facilitation payments\n\nare also prohibited.\n\nYou must not give, offer, promise or authorize payment of anything of value to any government\n\nofficial or any other person for (a) the improper purpose of obtaining or retaining business, (b)\n\ninducing such a person to act or fail to act, (c) rewarding such a person for acting or refraining",
+        "please visit https://global.toyota/pages/global_toyota/company/vision-and-philosophy/en_Global_ABAC_Policy.pdf\n\nTOYOTA GLOBAL ANTI-BRIBERY AND ANTI-CORRUPTION POLICY   |     9",
+        "B.  Payments Made in Response to Threats\n\nThe safety of our team members is of paramount importance. In the unlikely situation that a team\n\nmember or someone with the team member is facing imminent physical danger and payment will\n\nTOYOTA GLOBAL ANTI-BRIBERY AND ANTI-CORRUPTION POLICY   |     4\n\n\fMenu\n\nhelp avoid that danger, payment is allowed. As soon as the threat has passed, report the issue\n\nto the relevant local divisions/departments. If a payment was made, the relevant local divisions/",
+        "TOYOTA GLOBAL ANTI-BRIBERY AND ANTI-CORRUPTION POLICY   |     2\n\n\f1.  Purpose\n\nToyota Motor Corporation and its consolidated subsidiaries are committed to the highest standards\n\nof integrity in our business practices. (Toyota Motor Corporation and its consolidated subsidiaries are\n\nreferred to all together in this policy as the “Company” or “Toyota.”) We comply with applicable anti-\n\nbribery and anti-corruption laws and regulations in all countries where the Company does business.",
+        "Facilitation payment means a (usually small) unofficial payment made to a government official to\n\ninduce the official to perform (or speed up the performance of) routine, non-discretionary government\n\naction, such as obtaining utility services or issuing a non-discretionary license or permit to which\n\nthe applicant is entitled by law. Such payments are sometimes referred to as grease payments,\n\nexpediting payments or speed payments. In contrast, a fee paid to a government agency or entity (not"
+      ],
+      "latency_seconds": 0.026,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_03",
+      "category": "policy",
+      "question": "Can employees use personal funds for benefits prohibited by the anti-bribery policy?",
+      "config": "A",
+      "expected_source": "toyota_global_abac_policy.md",
+      "expected_context": "You cannot use personal funds to provide anything of value that would be otherwise prohibited.",
+      "source_rank": 1,
+      "evidence_rank": 1,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_global_abac_policy.md::chunk-19",
+        "legal/toyota_global_abac_policy.md::chunk-16",
+        "legal/toyota_global_abac_policy.md::chunk-15",
+        "legal/toyota_global_abac_policy.md::chunk-29",
+        "legal/toyota_global_abac_policy.md::chunk-2"
+      ],
+      "source_paths": [
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md"
+      ],
+      "retrieved_contexts": [
+        "payments.\n\nYou cannot use personal funds to provide anything of value that would be otherwise prohibited.\n\nBribes are a violation whether done directly by a team member or indirectly through a third party.\n\nWe expect business partners and any other third party working on our behalf to hold themselves to\n\nsimilar standards as those in this Policy.\n\nParticular care must be taken when interacting with government officials. When conducting",
+        "a Help Resource or a Speak Up Line Resource.\n\nA.  Our Policy Against Bribery\n\nYou are prohibited from engaging in bribery or any other form of corruption. Facilitation payments\n\nare also prohibited.\n\nYou must not give, offer, promise or authorize payment of anything of value to any government\n\nofficial or any other person for (a) the improper purpose of obtaining or retaining business, (b)\n\ninducing such a person to act or fail to act, (c) rewarding such a person for acting or refraining",
+        "government officials and are designed to comply with laws in the countries where we operate. The\n\nCompany also prohibits bribery involving private parties and prohibits you from soliciting or receiving\n\nbribes from business partners and other people we do business with.\n\nIf you are unsure whether these policy requirements apply to an individual matter, please contact\n\na Help Resource.\n\nIf you are aware of any breach or potential breach of this Policy, you should inform your team leader,",
+        "suggestion or request of any government official if the purpose of the charitable contribution is to\n\nsecure an unfair advantage or otherwise obtain or retain business for the Company.\n\nTOYOTA GLOBAL ANTI-BRIBERY AND ANTI-CORRUPTION POLICY   |     5\n\n\fIf a personal contribution could be reasonably perceived as being made on behalf of the Company,\n\nseek guidance from a Help Resource before contributing. Particular care must be taken when",
+        "4.  Essential Requirements/Executive Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3\n\n5.  Policy Requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4\n\nA. Our Policy Against Bribery . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4"
+      ],
+      "latency_seconds": 0.015,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_03",
+      "category": "policy",
+      "question": "Can employees use personal funds for benefits prohibited by the anti-bribery policy?",
+      "config": "B",
+      "expected_source": "toyota_global_abac_policy.md",
+      "expected_context": "You cannot use personal funds to provide anything of value that would be otherwise prohibited.",
+      "source_rank": 1,
+      "evidence_rank": 1,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_global_abac_policy.md::chunk-19",
+        "legal/toyota_global_abac_policy.md::chunk-17",
+        "legal/toyota_global_abac_policy.md::chunk-29",
+        "legal/toyota_global_abac_policy.md::chunk-34",
+        "legal/toyota_global_abac_policy.md::chunk-16"
+      ],
+      "source_paths": [
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md"
+      ],
+      "retrieved_contexts": [
+        "payments.\n\nYou cannot use personal funds to provide anything of value that would be otherwise prohibited.\n\nBribes are a violation whether done directly by a team member or indirectly through a third party.\n\nWe expect business partners and any other third party working on our behalf to hold themselves to\n\nsimilar standards as those in this Policy.\n\nParticular care must be taken when interacting with government officials. When conducting",
+        "from acting in a way that improperly benefits the Company, (d) securing an unfair advantage or (e)\n\ninducing conduct that amounts to breach of an expectation that a person will act in good faith,\n\nimpartially or in accordance with a position of trust.\n\nThe prohibited benefit to government officials or other people can be direct or indirect. For\n\nexample, providing anything of value for an improper purpose to a third person related to, or",
+        "suggestion or request of any government official if the purpose of the charitable contribution is to\n\nsecure an unfair advantage or otherwise obtain or retain business for the Company.\n\nTOYOTA GLOBAL ANTI-BRIBERY AND ANTI-CORRUPTION POLICY   |     5\n\n\fIf a personal contribution could be reasonably perceived as being made on behalf of the Company,\n\nseek guidance from a Help Resource before contributing. Particular care must be taken when",
+        "requirements of the normal hiring process. Restrictions may also apply, such as limiting the type of\n\nwork they can perform for Toyota for specific periods (for example, a “cooling off” period between\n\nthe end of government service and private-sector work).\n\nH.  Conflicts of Interest\n\nTeam members are prohibited from pursuing benefits at the expense of the Company or engaging\n\nin acts that conflict with the interests of the Company (conflicts of interest).",
+        "a Help Resource or a Speak Up Line Resource.\n\nA.  Our Policy Against Bribery\n\nYou are prohibited from engaging in bribery or any other form of corruption. Facilitation payments\n\nare also prohibited.\n\nYou must not give, offer, promise or authorize payment of anything of value to any government\n\nofficial or any other person for (a) the improper purpose of obtaining or retaining business, (b)\n\ninducing such a person to act or fail to act, (c) rewarding such a person for acting or refraining"
+      ],
+      "latency_seconds": 0.026,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_04",
+      "category": "policy",
+      "question": "Who can contact Toyota's Global Speak Up Line?",
+      "config": "A",
+      "expected_source": "toyota_global_speakup_policy.md",
+      "expected_context": "Anyone can contact the Global Speak Up Line.",
+      "source_rank": 1,
+      "evidence_rank": 2,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_global_speakup_policy.md::chunk-15",
+        "legal/toyota_global_speakup_policy.md::chunk-14",
+        "legal/toyota_global_abac_policy.md::chunk-44",
+        "legal/toyota_global_abac_policy.md::chunk-11",
+        "legal/toyota_global_speakup_policy.md::chunk-11"
+      ],
+      "source_paths": [
+        "toyota_global_speakup_policy.md",
+        "toyota_global_speakup_policy.md",
+        "toyota_global_abac_policy.md",
+        "toyota_global_abac_policy.md",
+        "toyota_global_speakup_policy.md"
+      ],
+      "retrieved_contexts": [
+        "ToyotaGlobalSpeakUp.com\n\nEmail SpeakUp@toyota.com\n\nThe Global Speak Up Line is staffed by a third party with\na variety of language capabilities.\n\nNothing in this Policy prohibits a team member from reporting potential violations of law directly to a\n\nregulator or to law enforcement.\n\nYour report should include the following details if you know them, so that the Company can\n\nappropriately investigate:\n\n•  What happened that caused your concern;\n\n•  Who was involved;",
+        "•  The local human resources department, the compliance department, the legal department or the\n\ninternal audit department.\n\n•  Global Compliance (GlobalCompliance@toyota.com).\n\n•  Your local Speak Up Line or the Global Speak Up Line.\n\nLocal Speak Up Line\n\nYou may have access to a local Speak Up Line in your company.\nPlease check your company’s resources for access information.\n\nGlobal Speak Up Line\n\nAnyone can contact the Global Speak Up Line.\n\nToyotaGlobalSpeakUp.com",
+        "support can be requested by contacting a Help Resource.\n\nTOYOTA GLOBAL ANTI-BRIBERY AND ANTI-CORRUPTION POLICY   |     7\n\n\fMenu\n\n7.  Speak Up Line Resources\n\nIf you see, hear or are concerned about any conduct that violates this Policy, you can contact the\n\nSpeak Up Line.\n\nWhen asking a question or raising a concern, you do not need to have all the details or be certain\n\nthat wrongdoing has occurred. It is important to raise the issue so the Company can address it in",
+        "B. Global Compliance\n\nIf a local division/department is not able to respond to your question or concern, you can also\n\ncontact Global Compliance as a Help Resource. Send an email to GlobalCompliance@toyota.com\n\nto reach someone who can assist you.\n\n4.  Essential Requirements/Executive Summary\n\nWhen conducting business for the Company, you must follow these requirements:\n\n•  Do not offer, promise, pay, solicit or receive bribes;\n\n•  Do not make facilitation payments;",
+        "If your local function cannot help you to solve the problem, you can contact Global Compliance by\n\nemailing GlobalCompliance@toyota.com, or you can contact your local Speak Up Line or the Global\n\nMenu\n\nSpeak Up Line.\n\nC.  When to Report a Concern or Ask a Question\n\nHere are some examples of situations that should cause you to raise a concern. Ask for help if you:\n\n•  Have a concern about an actual or potential violation of laws and regulations;"
+      ],
+      "latency_seconds": 0.015,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_04",
+      "category": "policy",
+      "question": "Who can contact Toyota's Global Speak Up Line?",
+      "config": "B",
+      "expected_source": "toyota_global_speakup_policy.md",
+      "expected_context": "Anyone can contact the Global Speak Up Line.",
+      "source_rank": 1,
+      "evidence_rank": 1,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_global_speakup_policy.md::chunk-14",
+        "legal/toyota_global_abac_policy.md::chunk-44",
+        "legal/toyota_global_speakup_policy.md::chunk-15",
+        "legal/toyota_global_speakup_policy.md::chunk-11",
+        "legal/toyota_global_abac_policy.md::chunk-11"
+      ],
+      "source_paths": [
+        "toyota_global_speakup_policy.md",
+        "toyota_global_abac_policy.md",
+        "toyota_global_speakup_policy.md",
+        "toyota_global_speakup_policy.md",
+        "toyota_global_abac_policy.md"
+      ],
+      "retrieved_contexts": [
+        "•  The local human resources department, the compliance department, the legal department or the\n\ninternal audit department.\n\n•  Global Compliance (GlobalCompliance@toyota.com).\n\n•  Your local Speak Up Line or the Global Speak Up Line.\n\nLocal Speak Up Line\n\nYou may have access to a local Speak Up Line in your company.\nPlease check your company’s resources for access information.\n\nGlobal Speak Up Line\n\nAnyone can contact the Global Speak Up Line.\n\nToyotaGlobalSpeakUp.com",
+        "support can be requested by contacting a Help Resource.\n\nTOYOTA GLOBAL ANTI-BRIBERY AND ANTI-CORRUPTION POLICY   |     7\n\n\fMenu\n\n7.  Speak Up Line Resources\n\nIf you see, hear or are concerned about any conduct that violates this Policy, you can contact the\n\nSpeak Up Line.\n\nWhen asking a question or raising a concern, you do not need to have all the details or be certain\n\nthat wrongdoing has occurred. It is important to raise the issue so the Company can address it in",
+        "ToyotaGlobalSpeakUp.com\n\nEmail SpeakUp@toyota.com\n\nThe Global Speak Up Line is staffed by a third party with\na variety of language capabilities.\n\nNothing in this Policy prohibits a team member from reporting potential violations of law directly to a\n\nregulator or to law enforcement.\n\nYour report should include the following details if you know them, so that the Company can\n\nappropriately investigate:\n\n•  What happened that caused your concern;\n\n•  Who was involved;",
+        "If your local function cannot help you to solve the problem, you can contact Global Compliance by\n\nemailing GlobalCompliance@toyota.com, or you can contact your local Speak Up Line or the Global\n\nMenu\n\nSpeak Up Line.\n\nC.  When to Report a Concern or Ask a Question\n\nHere are some examples of situations that should cause you to raise a concern. Ask for help if you:\n\n•  Have a concern about an actual or potential violation of laws and regulations;",
+        "B. Global Compliance\n\nIf a local division/department is not able to respond to your question or concern, you can also\n\ncontact Global Compliance as a Help Resource. Send an email to GlobalCompliance@toyota.com\n\nto reach someone who can assist you.\n\n4.  Essential Requirements/Executive Summary\n\nWhen conducting business for the Company, you must follow these requirements:\n\n•  Do not offer, promise, pay, solicit or receive bribes;\n\n•  Do not make facilitation payments;"
+      ],
+      "latency_seconds": 0.029,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_05",
+      "category": "policy",
+      "question": "Does the Speak Up policy prevent reporting potential violations directly to law enforcement?",
+      "config": "A",
+      "expected_source": "toyota_global_speakup_policy.md",
+      "expected_context": "Nothing in this Policy prohibits a team member from reporting potential violations of law directly to a regulator or to law enforcement.",
+      "source_rank": 1,
+      "evidence_rank": 1,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_global_speakup_policy.md::chunk-15",
+        "legal/toyota_global_speakup_policy.md::chunk-22",
+        "legal/toyota_global_speakup_policy.md::chunk-10",
+        "legal/toyota_global_speakup_policy.md::chunk-8",
+        "legal/toyota_global_speakup_policy.md::chunk-21"
+      ],
+      "source_paths": [
+        "toyota_global_speakup_policy.md",
+        "toyota_global_speakup_policy.md",
+        "toyota_global_speakup_policy.md",
+        "toyota_global_speakup_policy.md",
+        "toyota_global_speakup_policy.md"
+      ],
+      "retrieved_contexts": [
+        "ToyotaGlobalSpeakUp.com\n\nEmail SpeakUp@toyota.com\n\nThe Global Speak Up Line is staffed by a third party with\na variety of language capabilities.\n\nNothing in this Policy prohibits a team member from reporting potential violations of law directly to a\n\nregulator or to law enforcement.\n\nYour report should include the following details if you know them, so that the Company can\n\nappropriately investigate:\n\n•  What happened that caused your concern;\n\n•  Who was involved;",
+        "The information in this policy is current as of the effective date shown on the cover. To check for more recent versions, please\n\nvisit https://global.toyota/pages/global_toyota/company/vision-and-philosophy/en_Toyota_Global_Speakup_Policy.pdf\n\nTOYOTA SPEAK UP POLICY    |     5",
+        "•  Commit to non-retaliation. Remind the team member who made the report of our commitment to\n\nnon-retaliation.\n\nTOYOTA SPEAK UP POLICY    |     3\n\n\f•  Report to Compliance. If the report or question is about a potential Toyota Code of Conduct\n\nviolation, potential illegal or unethical act or you are unsure whether the report relates to these\n\nthings, report the issue to your local human resources, compliance, legal or internal audit function.",
+        "commitment to speaking up and proactively addressing issues. They set the example of doing the\n\nright thing at Toyota.\n\nTeam leaders who receive a concern or question should seek help from their local human resources,\n\ncompliance, legal or internal audit functions, or by contacting your local Speak Up Line or the Global\n\nSpeak Up Line.\n\nIf you are a team leader, you have a special responsibility to listen and act promptly when you receive",
+        "Such retaliation and attempts to learn the identity of a reporter are violations of the Toyota Code of\n\nConduct or company rules. If you are aware of any retaliation, please report it to your company.\n\n4.  Local Policies\n\nYou should review the local Speak Up policies and procedures for your company and region, which should\n\ninclude greater detail and specific guidance more directly related to your business and your location."
+      ],
+      "latency_seconds": 0.016,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_05",
+      "category": "policy",
+      "question": "Does the Speak Up policy prevent reporting potential violations directly to law enforcement?",
+      "config": "B",
+      "expected_source": "toyota_global_speakup_policy.md",
+      "expected_context": "Nothing in this Policy prohibits a team member from reporting potential violations of law directly to a regulator or to law enforcement.",
+      "source_rank": 1,
+      "evidence_rank": 1,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_global_speakup_policy.md::chunk-15",
+        "legal/toyota_global_speakup_policy.md::chunk-22",
+        "legal/toyota_global_speakup_policy.md::chunk-10",
+        "legal/toyota_global_speakup_policy.md::chunk-21",
+        "legal/toyota_global_speakup_policy.md::chunk-14"
+      ],
+      "source_paths": [
+        "toyota_global_speakup_policy.md",
+        "toyota_global_speakup_policy.md",
+        "toyota_global_speakup_policy.md",
+        "toyota_global_speakup_policy.md",
+        "toyota_global_speakup_policy.md"
+      ],
+      "retrieved_contexts": [
+        "ToyotaGlobalSpeakUp.com\n\nEmail SpeakUp@toyota.com\n\nThe Global Speak Up Line is staffed by a third party with\na variety of language capabilities.\n\nNothing in this Policy prohibits a team member from reporting potential violations of law directly to a\n\nregulator or to law enforcement.\n\nYour report should include the following details if you know them, so that the Company can\n\nappropriately investigate:\n\n•  What happened that caused your concern;\n\n•  Who was involved;",
+        "The information in this policy is current as of the effective date shown on the cover. To check for more recent versions, please\n\nvisit https://global.toyota/pages/global_toyota/company/vision-and-philosophy/en_Toyota_Global_Speakup_Policy.pdf\n\nTOYOTA SPEAK UP POLICY    |     5",
+        "•  Commit to non-retaliation. Remind the team member who made the report of our commitment to\n\nnon-retaliation.\n\nTOYOTA SPEAK UP POLICY    |     3\n\n\f•  Report to Compliance. If the report or question is about a potential Toyota Code of Conduct\n\nviolation, potential illegal or unethical act or you are unsure whether the report relates to these\n\nthings, report the issue to your local human resources, compliance, legal or internal audit function.",
+        "Such retaliation and attempts to learn the identity of a reporter are violations of the Toyota Code of\n\nConduct or company rules. If you are aware of any retaliation, please report it to your company.\n\n4.  Local Policies\n\nYou should review the local Speak Up policies and procedures for your company and region, which should\n\ninclude greater detail and specific guidance more directly related to your business and your location.",
+        "•  The local human resources department, the compliance department, the legal department or the\n\ninternal audit department.\n\n•  Global Compliance (GlobalCompliance@toyota.com).\n\n•  Your local Speak Up Line or the Global Speak Up Line.\n\nLocal Speak Up Line\n\nYou may have access to a local Speak Up Line in your company.\nPlease check your company’s resources for access information.\n\nGlobal Speak Up Line\n\nAnyone can contact the Global Speak Up Line.\n\nToyotaGlobalSpeakUp.com"
+      ],
+      "latency_seconds": 0.027,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_06",
+      "category": "policy",
+      "question": "How should team members cooperate during Speak Up investigations?",
+      "config": "A",
+      "expected_source": "toyota_global_speakup_policy.md",
+      "expected_context": "During these investigations, team members should fully cooperate and respond truthfully to questions.",
+      "source_rank": 1,
+      "evidence_rank": 3,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_global_speakup_policy.md::chunk-9",
+        "legal/toyota_global_speakup_policy.md::chunk-6",
+        "legal/toyota_global_speakup_policy.md::chunk-17",
+        "legal/toyota_global_speakup_policy.md::chunk-8",
+        "news/article_05.md::chunk-75"
+      ],
+      "source_paths": [
+        "toyota_global_speakup_policy.md",
+        "toyota_global_speakup_policy.md",
+        "toyota_global_speakup_policy.md",
+        "toyota_global_speakup_policy.md",
+        "article_05.md"
+      ],
+      "retrieved_contexts": [
+        "questions or concerns because team members are looking to you as an example of how to do the right\n\nthing. As a team leader, you should:\n\n•  Show gratitude. Listen to the person making the report and thank them. Remember that speaking\n\nup is difficult to do.\n\n•  Respond carefully. Take every concern seriously, even if you disagree. Commit to addressing the\n\nissue promptly.\n\n•  Protect confidentiality. Avoid discussing reports with others and share only on a need-to-know basis.",
+        "3.  Policy Requirements\n\nA.  Team Member Responsibilities\n\nTeam members should proactively participate in the Company’s culture of speaking up. You should\n\nunderstand the Toyota Code of Conduct and remain knowledgeable about the Company policies, laws\n\nand regulations relevant to your job. Any team member who sees or suspects a violation should raise\n\na concern or ask for help.\n\nYou are also responsible for cooperating with investigations of potential misconduct.",
+        "When conducting an investigation, the Company respects the reporter’s confidentiality and anonymity\n\nto the extent allowed by law. During these investigations, team members should fully cooperate and\n\nrespond truthfully to questions.\n\nDepending on the result of an investigation, Toyota may take appropriate actions, including discipline\n\nagainst those who engaged in any misconduct, illegal acts or unethical behavior. The goal of all such",
+        "commitment to speaking up and proactively addressing issues. They set the example of doing the\n\nright thing at Toyota.\n\nTeam leaders who receive a concern or question should seek help from their local human resources,\n\ncompliance, legal or internal audit functions, or by contacting your local Speak Up Line or the Global\n\nSpeak Up Line.\n\nIf you are a team leader, you have a special responsibility to listen and act promptly when you receive",
+        "* Audit and Supervisory Committee members will participate in Board discussions as directors with voting rights, in addition to their role of auditing the execution of directors' duties and supervising the appropriateness of business execution.\n  * With this transition, it will be possible to delegate important business execution decisions from the Board of Directors to the executive side, speeding up decision-making and allowing the Board to focus on supervisory duties."
+      ],
+      "latency_seconds": 0.014,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_06",
+      "category": "policy",
+      "question": "How should team members cooperate during Speak Up investigations?",
+      "config": "B",
+      "expected_source": "toyota_global_speakup_policy.md",
+      "expected_context": "During these investigations, team members should fully cooperate and respond truthfully to questions.",
+      "source_rank": 1,
+      "evidence_rank": 1,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_global_speakup_policy.md::chunk-17",
+        "legal/toyota_global_speakup_policy.md::chunk-9",
+        "legal/toyota_global_speakup_policy.md::chunk-6",
+        "legal/toyota_global_speakup_policy.md::chunk-8",
+        "legal/toyota_global_speakup_policy.md::chunk-18"
+      ],
+      "source_paths": [
+        "toyota_global_speakup_policy.md",
+        "toyota_global_speakup_policy.md",
+        "toyota_global_speakup_policy.md",
+        "toyota_global_speakup_policy.md",
+        "toyota_global_speakup_policy.md"
+      ],
+      "retrieved_contexts": [
+        "When conducting an investigation, the Company respects the reporter’s confidentiality and anonymity\n\nto the extent allowed by law. During these investigations, team members should fully cooperate and\n\nrespond truthfully to questions.\n\nDepending on the result of an investigation, Toyota may take appropriate actions, including discipline\n\nagainst those who engaged in any misconduct, illegal acts or unethical behavior. The goal of all such",
+        "questions or concerns because team members are looking to you as an example of how to do the right\n\nthing. As a team leader, you should:\n\n•  Show gratitude. Listen to the person making the report and thank them. Remember that speaking\n\nup is difficult to do.\n\n•  Respond carefully. Take every concern seriously, even if you disagree. Commit to addressing the\n\nissue promptly.\n\n•  Protect confidentiality. Avoid discussing reports with others and share only on a need-to-know basis.",
+        "3.  Policy Requirements\n\nA.  Team Member Responsibilities\n\nTeam members should proactively participate in the Company’s culture of speaking up. You should\n\nunderstand the Toyota Code of Conduct and remain knowledgeable about the Company policies, laws\n\nand regulations relevant to your job. Any team member who sees or suspects a violation should raise\n\na concern or ask for help.\n\nYou are also responsible for cooperating with investigations of potential misconduct.",
+        "commitment to speaking up and proactively addressing issues. They set the example of doing the\n\nright thing at Toyota.\n\nTeam leaders who receive a concern or question should seek help from their local human resources,\n\ncompliance, legal or internal audit functions, or by contacting your local Speak Up Line or the Global\n\nSpeak Up Line.\n\nIf you are a team leader, you have a special responsibility to listen and act promptly when you receive",
+        "actions is to prevent similar problems from happening again. Please understand that it may not be\n\npossible for the Company to share with you the details about the result of an investigation.\n\nF.  Our Non-Retaliation Commitment\n\nIt takes courage to speak up when something is not right.\n\nToyota strongly prohibits retaliation against team members for reporting concerns in good faith or\n\nfor participating in an investigation, even if the reported concern is not verified in the end. Prohibited"
+      ],
+      "latency_seconds": 0.126,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_07",
+      "category": "policy",
+      "question": "What does Toyota do when national and international human rights standards differ?",
+      "config": "A",
+      "expected_source": "toyota_human_rights_policy.md",
+      "expected_context": "In operations where there is a difference between the national and international standard for human rights, we will adopt the higher standard of the two. If there is conflict between the standards, then we will strive to the utmost to respect internationally recognized human rights to the greatest extent possible.",
+      "source_rank": 1,
+      "evidence_rank": 5,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_human_rights_policy.md::chunk-4",
+        "legal/toyota_human_rights_policy.md::chunk-0",
+        "legal/toyota_human_rights_policy.md::chunk-2",
+        "legal/toyota_human_rights_policy.md::chunk-11",
+        "legal/toyota_human_rights_policy.md::chunk-5"
+      ],
+      "source_paths": [
+        "toyota_human_rights_policy.md",
+        "toyota_human_rights_policy.md",
+        "toyota_human_rights_policy.md",
+        "toyota_human_rights_policy.md",
+        "toyota_human_rights_policy.md"
+      ],
+      "retrieved_contexts": [
+        "We respect and refer to international norms such as the Universal\nDeclaration of Human Rights. Toyota is guided by the United Nations\nGuiding Principles on Business and Human Rights and therefore we have a\n\n\fcorporate responsibility to respect human rights. This policy ensures\ncompliance with International human rights obligations together with the\nlaws and regulations of the countries in which we operate within.",
+        "Toyota’s Human Rights Policy\n\nWe as Toyota refer to and respect the “United Nations Guiding Principles\non Business and Human Rights” (UNGP) and promote activities related to\nhuman rights based on the UNGP.\n\nSeeking “the happiness of someone other than ourselves” has always been\na part of Toyota’s Founding Principles and this was a driving force that led\nto the invention of the automatic loom which can be considered as the\nbeginning of Toyota.",
+        "We will continue to protect and improve the human rights of our\nemployees, customers, and all people involved in our business activities in\norder to be beneficial towards society.\n\nThis policy stands as the highest level policy related to human rights within\nToyota and shall be adhered to by everyone employed by Toyota.\n\n１．Commitment for the \"respect for human rights\"\nWe recognize that our business operations could be at risk to potential and\nactual human rights impacts.",
+        "７.    Consultation with stakeholders\nIn the event that a human rights violation occurs, Toyota will consult with\nexternal stakeholders to address the issue and ensure continual\ncommunication.\n\nThis policy was approved by the Board of Directors of Toyota Motor\nCorporation on September 29, 2021.\n\nSeptember 29, 2021\nToyota Motor Corporation\nPresident and Representative Director, Akio Toyoda\n\n\f【Appendix; Salient issues】",
+        "In operations where there is a difference between the national and\ninternational standard for human rights, we will adopt the higher standard\nof the two. If there is conflict between the standards, then we will strive to\nthe utmost to respect internationally recognized human rights to the\ngreatest extent possible."
+      ],
+      "latency_seconds": 0.087,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_07",
+      "category": "policy",
+      "question": "What does Toyota do when national and international human rights standards differ?",
+      "config": "B",
+      "expected_source": "toyota_human_rights_policy.md",
+      "expected_context": "In operations where there is a difference between the national and international standard for human rights, we will adopt the higher standard of the two. If there is conflict between the standards, then we will strive to the utmost to respect internationally recognized human rights to the greatest extent possible.",
+      "source_rank": 1,
+      "evidence_rank": 2,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_human_rights_policy.md::chunk-4",
+        "legal/toyota_human_rights_policy.md::chunk-5",
+        "legal/toyota_human_rights_policy.md::chunk-2",
+        "legal/toyota_human_rights_policy.md::chunk-0",
+        "legal/toyota_human_rights_policy.md::chunk-11"
+      ],
+      "source_paths": [
+        "toyota_human_rights_policy.md",
+        "toyota_human_rights_policy.md",
+        "toyota_human_rights_policy.md",
+        "toyota_human_rights_policy.md",
+        "toyota_human_rights_policy.md"
+      ],
+      "retrieved_contexts": [
+        "We respect and refer to international norms such as the Universal\nDeclaration of Human Rights. Toyota is guided by the United Nations\nGuiding Principles on Business and Human Rights and therefore we have a\n\n\fcorporate responsibility to respect human rights. This policy ensures\ncompliance with International human rights obligations together with the\nlaws and regulations of the countries in which we operate within.",
+        "In operations where there is a difference between the national and\ninternational standard for human rights, we will adopt the higher standard\nof the two. If there is conflict between the standards, then we will strive to\nthe utmost to respect internationally recognized human rights to the\ngreatest extent possible.",
+        "We will continue to protect and improve the human rights of our\nemployees, customers, and all people involved in our business activities in\norder to be beneficial towards society.\n\nThis policy stands as the highest level policy related to human rights within\nToyota and shall be adhered to by everyone employed by Toyota.\n\n１．Commitment for the \"respect for human rights\"\nWe recognize that our business operations could be at risk to potential and\nactual human rights impacts.",
+        "Toyota’s Human Rights Policy\n\nWe as Toyota refer to and respect the “United Nations Guiding Principles\non Business and Human Rights” (UNGP) and promote activities related to\nhuman rights based on the UNGP.\n\nSeeking “the happiness of someone other than ourselves” has always been\na part of Toyota’s Founding Principles and this was a driving force that led\nto the invention of the automatic loom which can be considered as the\nbeginning of Toyota.",
+        "７.    Consultation with stakeholders\nIn the event that a human rights violation occurs, Toyota will consult with\nexternal stakeholders to address the issue and ensure continual\ncommunication.\n\nThis policy was approved by the Board of Directors of Toyota Motor\nCorporation on September 29, 2021.\n\nSeptember 29, 2021\nToyota Motor Corporation\nPresident and Representative Director, Akio Toyoda\n\n\f【Appendix; Salient issues】"
+      ],
+      "latency_seconds": 0.239,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_08",
+      "category": "policy",
+      "question": "What corrective action does Toyota promise if it caused or contributed to an adverse human rights impact?",
+      "config": "A",
+      "expected_source": "toyota_human_rights_policy.md",
+      "expected_context": "If it is certain that we have caused or contributed to an adverse impact on human rights, we shall immediately implement corrective measures.",
+      "source_rank": 1,
+      "evidence_rank": null,
+      "evidence_coverage": 0.318,
+      "source_ids": [
+        "legal/toyota_human_rights_policy.md::chunk-2",
+        "legal/toyota_human_rights_policy.md::chunk-4",
+        "legal/toyota_global_speakup_policy.md::chunk-3",
+        "legal/toyota_human_rights_policy.md::chunk-11",
+        "legal/toyota_global_speakup_policy.md::chunk-18"
+      ],
+      "source_paths": [
+        "toyota_human_rights_policy.md",
+        "toyota_human_rights_policy.md",
+        "toyota_global_speakup_policy.md",
+        "toyota_human_rights_policy.md",
+        "toyota_global_speakup_policy.md"
+      ],
+      "retrieved_contexts": [
+        "We will continue to protect and improve the human rights of our\nemployees, customers, and all people involved in our business activities in\norder to be beneficial towards society.\n\nThis policy stands as the highest level policy related to human rights within\nToyota and shall be adhered to by everyone employed by Toyota.\n\n１．Commitment for the \"respect for human rights\"\nWe recognize that our business operations could be at risk to potential and\nactual human rights impacts.",
+        "We respect and refer to international norms such as the Universal\nDeclaration of Human Rights. Toyota is guided by the United Nations\nGuiding Principles on Business and Human Rights and therefore we have a\n\n\fcorporate responsibility to respect human rights. This policy ensures\ncompliance with International human rights obligations together with the\nlaws and regulations of the countries in which we operate within.",
+        "F.  Our Non-Retaliation Commitment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n\n3\n\n3\n\n3\n\n3\n\n3\n\n4\n\n4\n\n5\n\n5\n\n4. Local Policies. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5\n\nTOYOTA SPEAK UP POLICY    |     2\n\n\fMenu\n\n1.  Purpose\n\nToyota Motor Corporation and its consolidated subsidiaries are committed to ethical values that require",
+        "７.    Consultation with stakeholders\nIn the event that a human rights violation occurs, Toyota will consult with\nexternal stakeholders to address the issue and ensure continual\ncommunication.\n\nThis policy was approved by the Board of Directors of Toyota Motor\nCorporation on September 29, 2021.\n\nSeptember 29, 2021\nToyota Motor Corporation\nPresident and Representative Director, Akio Toyoda\n\n\f【Appendix; Salient issues】",
+        "actions is to prevent similar problems from happening again. Please understand that it may not be\n\npossible for the Company to share with you the details about the result of an investigation.\n\nF.  Our Non-Retaliation Commitment\n\nIt takes courage to speak up when something is not right.\n\nToyota strongly prohibits retaliation against team members for reporting concerns in good faith or\n\nfor participating in an investigation, even if the reported concern is not verified in the end. Prohibited"
+      ],
+      "latency_seconds": 0.095,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_08",
+      "category": "policy",
+      "question": "What corrective action does Toyota promise if it caused or contributed to an adverse human rights impact?",
+      "config": "B",
+      "expected_source": "toyota_human_rights_policy.md",
+      "expected_context": "If it is certain that we have caused or contributed to an adverse impact on human rights, we shall immediately implement corrective measures.",
+      "source_rank": 2,
+      "evidence_rank": 4,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_global_speakup_policy.md::chunk-18",
+        "legal/toyota_human_rights_policy.md::chunk-2",
+        "legal/toyota_global_speakup_policy.md::chunk-7",
+        "legal/toyota_human_rights_policy.md::chunk-7",
+        "legal/toyota_human_rights_policy.md::chunk-4"
+      ],
+      "source_paths": [
+        "toyota_global_speakup_policy.md",
+        "toyota_human_rights_policy.md",
+        "toyota_global_speakup_policy.md",
+        "toyota_human_rights_policy.md",
+        "toyota_human_rights_policy.md"
+      ],
+      "retrieved_contexts": [
+        "actions is to prevent similar problems from happening again. Please understand that it may not be\n\npossible for the Company to share with you the details about the result of an investigation.\n\nF.  Our Non-Retaliation Commitment\n\nIt takes courage to speak up when something is not right.\n\nToyota strongly prohibits retaliation against team members for reporting concerns in good faith or\n\nfor participating in an investigation, even if the reported concern is not verified in the end. Prohibited",
+        "We will continue to protect and improve the human rights of our\nemployees, customers, and all people involved in our business activities in\norder to be beneficial towards society.\n\nThis policy stands as the highest level policy related to human rights within\nToyota and shall be adhered to by everyone employed by Toyota.\n\n１．Commitment for the \"respect for human rights\"\nWe recognize that our business operations could be at risk to potential and\nactual human rights impacts.",
+        "You do not need to have all the details or be certain that wrongdoing has occurred. If you have a\n\nconcern or a question related to compliance with the Toyota Code of Conduct or the Company’s\n\npolicies, or potentially illegal acts, it is important to raise the issue, even if uncertain, so that the\n\nCompany can address it in a timely manner.\n\nB.  Team Leader Responsibilities\n\nIn addition to fulfilling the Team Member Responsibilities above, team leaders reinforce our",
+        "３．Human Rights Due Diligence\nIn order to fulfill the responsibility to respect human rights, we will\nestablish and continuously implement a Human Rights Due Diligence*\nsystem. (*The process which is implemented for the identification,\nprevention, and mitigation of negative human rights impacts)\n\n４．Remedy\nIf it is certain that we have caused or contributed to an adverse impact on\nhuman rights, we shall immediately implement corrective measures.",
+        "We respect and refer to international norms such as the Universal\nDeclaration of Human Rights. Toyota is guided by the United Nations\nGuiding Principles on Business and Human Rights and therefore we have a\n\n\fcorporate responsibility to respect human rights. This policy ensures\ncompliance with International human rights obligations together with the\nlaws and regulations of the countries in which we operate within."
+      ],
+      "latency_seconds": 0.199,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_09",
+      "category": "policy",
+      "question": "When was Toyota's Human Rights Policy approved by its board?",
+      "config": "A",
+      "expected_source": "toyota_human_rights_policy.md",
+      "expected_context": "This policy was approved by the Board of Directors of Toyota Motor Corporation on September 29, 2021.",
+      "source_rank": 1,
+      "evidence_rank": 1,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_human_rights_policy.md::chunk-11",
+        "legal/toyota_human_rights_policy.md::chunk-4",
+        "legal/toyota_human_rights_policy.md::chunk-2",
+        "legal/toyota_human_rights_policy.md::chunk-0",
+        "legal/toyota_global_speakup_policy.md::chunk-3"
+      ],
+      "source_paths": [
+        "toyota_human_rights_policy.md",
+        "toyota_human_rights_policy.md",
+        "toyota_human_rights_policy.md",
+        "toyota_human_rights_policy.md",
+        "toyota_global_speakup_policy.md"
+      ],
+      "retrieved_contexts": [
+        "７.    Consultation with stakeholders\nIn the event that a human rights violation occurs, Toyota will consult with\nexternal stakeholders to address the issue and ensure continual\ncommunication.\n\nThis policy was approved by the Board of Directors of Toyota Motor\nCorporation on September 29, 2021.\n\nSeptember 29, 2021\nToyota Motor Corporation\nPresident and Representative Director, Akio Toyoda\n\n\f【Appendix; Salient issues】",
+        "We respect and refer to international norms such as the Universal\nDeclaration of Human Rights. Toyota is guided by the United Nations\nGuiding Principles on Business and Human Rights and therefore we have a\n\n\fcorporate responsibility to respect human rights. This policy ensures\ncompliance with International human rights obligations together with the\nlaws and regulations of the countries in which we operate within.",
+        "We will continue to protect and improve the human rights of our\nemployees, customers, and all people involved in our business activities in\norder to be beneficial towards society.\n\nThis policy stands as the highest level policy related to human rights within\nToyota and shall be adhered to by everyone employed by Toyota.\n\n１．Commitment for the \"respect for human rights\"\nWe recognize that our business operations could be at risk to potential and\nactual human rights impacts.",
+        "Toyota’s Human Rights Policy\n\nWe as Toyota refer to and respect the “United Nations Guiding Principles\non Business and Human Rights” (UNGP) and promote activities related to\nhuman rights based on the UNGP.\n\nSeeking “the happiness of someone other than ourselves” has always been\na part of Toyota’s Founding Principles and this was a driving force that led\nto the invention of the automatic loom which can be considered as the\nbeginning of Toyota.",
+        "F.  Our Non-Retaliation Commitment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n\n3\n\n3\n\n3\n\n3\n\n3\n\n4\n\n4\n\n5\n\n5\n\n4. Local Policies. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5\n\nTOYOTA SPEAK UP POLICY    |     2\n\n\fMenu\n\n1.  Purpose\n\nToyota Motor Corporation and its consolidated subsidiaries are committed to ethical values that require"
+      ],
+      "latency_seconds": 0.088,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_09",
+      "category": "policy",
+      "question": "When was Toyota's Human Rights Policy approved by its board?",
+      "config": "B",
+      "expected_source": "toyota_human_rights_policy.md",
+      "expected_context": "This policy was approved by the Board of Directors of Toyota Motor Corporation on September 29, 2021.",
+      "source_rank": 1,
+      "evidence_rank": 1,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_human_rights_policy.md::chunk-11",
+        "legal/toyota_human_rights_policy.md::chunk-4",
+        "legal/toyota_human_rights_policy.md::chunk-2",
+        "legal/toyota_human_rights_policy.md::chunk-0",
+        "legal/toyota_global_speakup_policy.md::chunk-3"
+      ],
+      "source_paths": [
+        "toyota_human_rights_policy.md",
+        "toyota_human_rights_policy.md",
+        "toyota_human_rights_policy.md",
+        "toyota_human_rights_policy.md",
+        "toyota_global_speakup_policy.md"
+      ],
+      "retrieved_contexts": [
+        "７.    Consultation with stakeholders\nIn the event that a human rights violation occurs, Toyota will consult with\nexternal stakeholders to address the issue and ensure continual\ncommunication.\n\nThis policy was approved by the Board of Directors of Toyota Motor\nCorporation on September 29, 2021.\n\nSeptember 29, 2021\nToyota Motor Corporation\nPresident and Representative Director, Akio Toyoda\n\n\f【Appendix; Salient issues】",
+        "We respect and refer to international norms such as the Universal\nDeclaration of Human Rights. Toyota is guided by the United Nations\nGuiding Principles on Business and Human Rights and therefore we have a\n\n\fcorporate responsibility to respect human rights. This policy ensures\ncompliance with International human rights obligations together with the\nlaws and regulations of the countries in which we operate within.",
+        "We will continue to protect and improve the human rights of our\nemployees, customers, and all people involved in our business activities in\norder to be beneficial towards society.\n\nThis policy stands as the highest level policy related to human rights within\nToyota and shall be adhered to by everyone employed by Toyota.\n\n１．Commitment for the \"respect for human rights\"\nWe recognize that our business operations could be at risk to potential and\nactual human rights impacts.",
+        "Toyota’s Human Rights Policy\n\nWe as Toyota refer to and respect the “United Nations Guiding Principles\non Business and Human Rights” (UNGP) and promote activities related to\nhuman rights based on the UNGP.\n\nSeeking “the happiness of someone other than ourselves” has always been\na part of Toyota’s Founding Principles and this was a driving force that led\nto the invention of the automatic loom which can be considered as the\nbeginning of Toyota.",
+        "F.  Our Non-Retaliation Commitment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n\n3\n\n3\n\n3\n\n3\n\n3\n\n4\n\n4\n\n5\n\n5\n\n4. Local Policies. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5\n\nTOYOTA SPEAK UP POLICY    |     2\n\n\fMenu\n\n1.  Purpose\n\nToyota Motor Corporation and its consolidated subsidiaries are committed to ethical values that require"
+      ],
+      "latency_seconds": 0.212,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_10",
+      "category": "policy",
+      "question": "What requirements does Toyota's Information Security Policy say it will comply with?",
+      "config": "A",
+      "expected_source": "toyota_information_security_policy.md",
+      "expected_context": "Toyota shall comply with applicable laws, governmental guidance, contractual obligations and other social norms related to information security.",
+      "source_rank": 1,
+      "evidence_rank": 1,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_information_security_policy.md::chunk-2",
+        "legal/toyota_information_security_policy.md::chunk-0",
+        "legal/toyota_information_security_policy.md::chunk-1",
+        "news/article_02.md::chunk-58",
+        "legal/toyota_information_security_policy.md::chunk-4"
+      ],
+      "source_paths": [
+        "toyota_information_security_policy.md",
+        "toyota_information_security_policy.md",
+        "toyota_information_security_policy.md",
+        "article_02.md",
+        "toyota_information_security_policy.md"
+      ],
+      "retrieved_contexts": [
+        "1 )   Compliance\n\nToyota shall comply with applicable laws, governmental guidance, contractual obligations and other\nsocial norms related to information security.\n\n2 )   Maintenance of stable business infrastructure\n\nToyota shall ensure competitiveness and business continuity through the management and protection of\nits Information Assets.\n\n3 )   Providing safe products and services",
+        "Information Security Policy\n\n1.    Purpose\n\nBased on the “Guiding Principles at Toyota” and “Toyota Code of Conduct”, Toyota Motor Corporation\n\n(hereinafter called, “TMC”) and TMC’s consolidated subsidiaries (hereinafter collectively called, “Toyota”)\n\nunderstands that Information; such as trade secrets and personal information; created by Toyota or received\n\nfrom customers, business partners or other entities in the course of business activities, associated information",
+        "management systems and the control systems of Toyota’s products and facilities (hereinafter called,\n\n“Information Assets”) are critical assets for Toyota’s business activities.\n\nBased on the above understanding, TMC establishes Information Security Policy (hereinafter called, “The\n\nPolicy”) to ensure that Toyota manages and practices information security methodically and continuously.\n\n2.   Toyota’s basic approach to information security\n\n1 )   Compliance",
+        "Vehicle performance, including the security of connected technology systems, is a top priority for Toyota. Consistent with that commitment, Toyota engages with security researchers and other vehicle manufacturers regarding vehicle and enterprise cybersecurity.",
+        "Toyota shall act as a good corporate citizen by contributing to a safe online environment (“Cyberspace”)\nby working to identify and mitigate information security vulnerabilities in Toyota’s Information Assets.\n\n5 )   Information Security Management\n\nToyota shall continuously implement information security management through the establishment of\ngovernance and risk management including incident response."
+      ],
+      "latency_seconds": 0.103,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_10",
+      "category": "policy",
+      "question": "What requirements does Toyota's Information Security Policy say it will comply with?",
+      "config": "B",
+      "expected_source": "toyota_information_security_policy.md",
+      "expected_context": "Toyota shall comply with applicable laws, governmental guidance, contractual obligations and other social norms related to information security.",
+      "source_rank": 1,
+      "evidence_rank": 4,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_information_security_policy.md::chunk-1",
+        "legal/toyota_information_security_policy.md::chunk-0",
+        "legal/toyota_information_security_policy.md::chunk-4",
+        "legal/toyota_information_security_policy.md::chunk-2",
+        "legal/toyota_global_abac_policy.md::chunk-7"
+      ],
+      "source_paths": [
+        "toyota_information_security_policy.md",
+        "toyota_information_security_policy.md",
+        "toyota_information_security_policy.md",
+        "toyota_information_security_policy.md",
+        "toyota_global_abac_policy.md"
+      ],
+      "retrieved_contexts": [
+        "management systems and the control systems of Toyota’s products and facilities (hereinafter called,\n\n“Information Assets”) are critical assets for Toyota’s business activities.\n\nBased on the above understanding, TMC establishes Information Security Policy (hereinafter called, “The\n\nPolicy”) to ensure that Toyota manages and practices information security methodically and continuously.\n\n2.   Toyota’s basic approach to information security\n\n1 )   Compliance",
+        "Information Security Policy\n\n1.    Purpose\n\nBased on the “Guiding Principles at Toyota” and “Toyota Code of Conduct”, Toyota Motor Corporation\n\n(hereinafter called, “TMC”) and TMC’s consolidated subsidiaries (hereinafter collectively called, “Toyota”)\n\nunderstands that Information; such as trade secrets and personal information; created by Toyota or received\n\nfrom customers, business partners or other entities in the course of business activities, associated information",
+        "Toyota shall act as a good corporate citizen by contributing to a safe online environment (“Cyberspace”)\nby working to identify and mitigate information security vulnerabilities in Toyota’s Information Assets.\n\n5 )   Information Security Management\n\nToyota shall continuously implement information security management through the establishment of\ngovernance and risk management including incident response.",
+        "1 )   Compliance\n\nToyota shall comply with applicable laws, governmental guidance, contractual obligations and other\nsocial norms related to information security.\n\n2 )   Maintenance of stable business infrastructure\n\nToyota shall ensure competitiveness and business continuity through the management and protection of\nits Information Assets.\n\n3 )   Providing safe products and services",
+        "TOYOTA GLOBAL ANTI-BRIBERY AND ANTI-CORRUPTION POLICY   |     2\n\n\f1.  Purpose\n\nToyota Motor Corporation and its consolidated subsidiaries are committed to the highest standards\n\nof integrity in our business practices. (Toyota Motor Corporation and its consolidated subsidiaries are\n\nreferred to all together in this policy as the “Company” or “Toyota.”) We comply with applicable anti-\n\nbribery and anti-corruption laws and regulations in all countries where the Company does business."
+      ],
+      "latency_seconds": 0.186,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_11",
+      "category": "policy",
+      "question": "How does Toyota's Information Security Policy support business continuity?",
+      "config": "A",
+      "expected_source": "toyota_information_security_policy.md",
+      "expected_context": "Toyota shall ensure competitiveness and business continuity through the management and protection of its Information Assets.",
+      "source_rank": 1,
+      "evidence_rank": 2,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_information_security_policy.md::chunk-0",
+        "legal/toyota_information_security_policy.md::chunk-2",
+        "legal/toyota_information_security_policy.md::chunk-1",
+        "legal/toyota_information_security_policy.md::chunk-4",
+        "news/article_02.md::chunk-58"
+      ],
+      "source_paths": [
+        "toyota_information_security_policy.md",
+        "toyota_information_security_policy.md",
+        "toyota_information_security_policy.md",
+        "toyota_information_security_policy.md",
+        "article_02.md"
+      ],
+      "retrieved_contexts": [
+        "Information Security Policy\n\n1.    Purpose\n\nBased on the “Guiding Principles at Toyota” and “Toyota Code of Conduct”, Toyota Motor Corporation\n\n(hereinafter called, “TMC”) and TMC’s consolidated subsidiaries (hereinafter collectively called, “Toyota”)\n\nunderstands that Information; such as trade secrets and personal information; created by Toyota or received\n\nfrom customers, business partners or other entities in the course of business activities, associated information",
+        "1 )   Compliance\n\nToyota shall comply with applicable laws, governmental guidance, contractual obligations and other\nsocial norms related to information security.\n\n2 )   Maintenance of stable business infrastructure\n\nToyota shall ensure competitiveness and business continuity through the management and protection of\nits Information Assets.\n\n3 )   Providing safe products and services",
+        "management systems and the control systems of Toyota’s products and facilities (hereinafter called,\n\n“Information Assets”) are critical assets for Toyota’s business activities.\n\nBased on the above understanding, TMC establishes Information Security Policy (hereinafter called, “The\n\nPolicy”) to ensure that Toyota manages and practices information security methodically and continuously.\n\n2.   Toyota’s basic approach to information security\n\n1 )   Compliance",
+        "Toyota shall act as a good corporate citizen by contributing to a safe online environment (“Cyberspace”)\nby working to identify and mitigate information security vulnerabilities in Toyota’s Information Assets.\n\n5 )   Information Security Management\n\nToyota shall continuously implement information security management through the establishment of\ngovernance and risk management including incident response.",
+        "Vehicle performance, including the security of connected technology systems, is a top priority for Toyota. Consistent with that commitment, Toyota engages with security researchers and other vehicle manufacturers regarding vehicle and enterprise cybersecurity."
+      ],
+      "latency_seconds": 0.095,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_11",
+      "category": "policy",
+      "question": "How does Toyota's Information Security Policy support business continuity?",
+      "config": "B",
+      "expected_source": "toyota_information_security_policy.md",
+      "expected_context": "Toyota shall ensure competitiveness and business continuity through the management and protection of its Information Assets.",
+      "source_rank": 1,
+      "evidence_rank": 4,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_information_security_policy.md::chunk-0",
+        "legal/toyota_information_security_policy.md::chunk-1",
+        "legal/toyota_information_security_policy.md::chunk-4",
+        "legal/toyota_information_security_policy.md::chunk-2",
+        "news/article_02.md::chunk-59"
+      ],
+      "source_paths": [
+        "toyota_information_security_policy.md",
+        "toyota_information_security_policy.md",
+        "toyota_information_security_policy.md",
+        "toyota_information_security_policy.md",
+        "article_02.md"
+      ],
+      "retrieved_contexts": [
+        "Information Security Policy\n\n1.    Purpose\n\nBased on the “Guiding Principles at Toyota” and “Toyota Code of Conduct”, Toyota Motor Corporation\n\n(hereinafter called, “TMC”) and TMC’s consolidated subsidiaries (hereinafter collectively called, “Toyota”)\n\nunderstands that Information; such as trade secrets and personal information; created by Toyota or received\n\nfrom customers, business partners or other entities in the course of business activities, associated information",
+        "management systems and the control systems of Toyota’s products and facilities (hereinafter called,\n\n“Information Assets”) are critical assets for Toyota’s business activities.\n\nBased on the above understanding, TMC establishes Information Security Policy (hereinafter called, “The\n\nPolicy”) to ensure that Toyota manages and practices information security methodically and continuously.\n\n2.   Toyota’s basic approach to information security\n\n1 )   Compliance",
+        "Toyota shall act as a good corporate citizen by contributing to a safe online environment (“Cyberspace”)\nby working to identify and mitigate information security vulnerabilities in Toyota’s Information Assets.\n\n5 )   Information Security Management\n\nToyota shall continuously implement information security management through the establishment of\ngovernance and risk management including incident response.",
+        "1 )   Compliance\n\nToyota shall comply with applicable laws, governmental guidance, contractual obligations and other\nsocial norms related to information security.\n\n2 )   Maintenance of stable business infrastructure\n\nToyota shall ensure competitiveness and business continuity through the management and protection of\nits Information Assets.\n\n3 )   Providing safe products and services",
+        "With its mission to help enhace road safety through advanced research on emerging technologies, Tencent Keen Security Lab (Keen Lab), a globally renowned cybersecurity research lab of Tencent, continues to support the strengthening of the security functions of connected vehicles by making development recommendations to automotive manufacturers."
+      ],
+      "latency_seconds": 0.193,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_12",
+      "category": "policy",
+      "question": "What does Toyota establish for continuous information security management?",
+      "config": "A",
+      "expected_source": "toyota_information_security_policy.md",
+      "expected_context": "Toyota shall continuously implement information security management through the establishment of governance and risk management including incident response.",
+      "source_rank": 1,
+      "evidence_rank": 1,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_information_security_policy.md::chunk-4",
+        "legal/toyota_information_security_policy.md::chunk-0",
+        "legal/toyota_information_security_policy.md::chunk-1",
+        "legal/toyota_information_security_policy.md::chunk-2",
+        "news/article_02.md::chunk-58"
+      ],
+      "source_paths": [
+        "toyota_information_security_policy.md",
+        "toyota_information_security_policy.md",
+        "toyota_information_security_policy.md",
+        "toyota_information_security_policy.md",
+        "article_02.md"
+      ],
+      "retrieved_contexts": [
+        "Toyota shall act as a good corporate citizen by contributing to a safe online environment (“Cyberspace”)\nby working to identify and mitigate information security vulnerabilities in Toyota’s Information Assets.\n\n5 )   Information Security Management\n\nToyota shall continuously implement information security management through the establishment of\ngovernance and risk management including incident response.",
+        "Information Security Policy\n\n1.    Purpose\n\nBased on the “Guiding Principles at Toyota” and “Toyota Code of Conduct”, Toyota Motor Corporation\n\n(hereinafter called, “TMC”) and TMC’s consolidated subsidiaries (hereinafter collectively called, “Toyota”)\n\nunderstands that Information; such as trade secrets and personal information; created by Toyota or received\n\nfrom customers, business partners or other entities in the course of business activities, associated information",
+        "management systems and the control systems of Toyota’s products and facilities (hereinafter called,\n\n“Information Assets”) are critical assets for Toyota’s business activities.\n\nBased on the above understanding, TMC establishes Information Security Policy (hereinafter called, “The\n\nPolicy”) to ensure that Toyota manages and practices information security methodically and continuously.\n\n2.   Toyota’s basic approach to information security\n\n1 )   Compliance",
+        "1 )   Compliance\n\nToyota shall comply with applicable laws, governmental guidance, contractual obligations and other\nsocial norms related to information security.\n\n2 )   Maintenance of stable business infrastructure\n\nToyota shall ensure competitiveness and business continuity through the management and protection of\nits Information Assets.\n\n3 )   Providing safe products and services",
+        "Vehicle performance, including the security of connected technology systems, is a top priority for Toyota. Consistent with that commitment, Toyota engages with security researchers and other vehicle manufacturers regarding vehicle and enterprise cybersecurity."
+      ],
+      "latency_seconds": 0.088,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_12",
+      "category": "policy",
+      "question": "What does Toyota establish for continuous information security management?",
+      "config": "B",
+      "expected_source": "toyota_information_security_policy.md",
+      "expected_context": "Toyota shall continuously implement information security management through the establishment of governance and risk management including incident response.",
+      "source_rank": 1,
+      "evidence_rank": 1,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_information_security_policy.md::chunk-4",
+        "legal/toyota_information_security_policy.md::chunk-1",
+        "news/article_02.md::chunk-58",
+        "news/article_02.md::chunk-0",
+        "news/article_02.md::chunk-99"
+      ],
+      "source_paths": [
+        "toyota_information_security_policy.md",
+        "toyota_information_security_policy.md",
+        "article_02.md",
+        "article_02.md",
+        "article_02.md"
+      ],
+      "retrieved_contexts": [
+        "Toyota shall act as a good corporate citizen by contributing to a safe online environment (“Cyberspace”)\nby working to identify and mitigate information security vulnerabilities in Toyota’s Information Assets.\n\n5 )   Information Security Management\n\nToyota shall continuously implement information security management through the establishment of\ngovernance and risk management including incident response.",
+        "management systems and the control systems of Toyota’s products and facilities (hereinafter called,\n\n“Information Assets”) are critical assets for Toyota’s business activities.\n\nBased on the above understanding, TMC establishes Information Security Policy (hereinafter called, “The\n\nPolicy”) to ensure that Toyota manages and practices information security methodically and continuously.\n\n2.   Toyota’s basic approach to information security\n\n1 )   Compliance",
+        "Vehicle performance, including the security of connected technology systems, is a top priority for Toyota. Consistent with that commitment, Toyota engages with security researchers and other vehicle manufacturers regarding vehicle and enterprise cybersecurity.",
+        "# Toyota Acknowledges Tencent Keen Security Lab's Initiatives for Improving Automotive Cybersecurity | Corporate | Global Newsroom | Toyota Motor Corporation Official Global Website\n\n**Source:** https://global.toyota/en/newsroom/corporate/32120629.html\n\n**Crawled:** 2026-09-25T03:53:22.172533+00:00\n\n---",
+        "Mar. 30, 2020\n## Toyota Acknowledges Tencent Keen Security Lab's Initiatives for Improving Automotive Cybersecurity\n[News Release](https://global.toyota/en/newsroom/corporate/32120629.html) [Innovation](https://global.toyota/en/newsroom/corporate/32120629.html) [CASE](https://global.toyota/en/newsroom/corporate/32120629.html) [Connected](https://global.toyota/en/newsroom/corporate/32120629.html)"
+      ],
+      "latency_seconds": 0.182,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_13",
+      "category": "policy",
+      "question": "Who is responsible for Toyota's tax compliance?",
+      "config": "A",
+      "expected_source": "toyota_tax_policy.md",
+      "expected_context": "Tax compliance falls under the responsibility of the Chief Financial Officer.",
+      "source_rank": 1,
+      "evidence_rank": 1,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_tax_policy.md::chunk-4",
+        "legal/toyota_tax_policy.md::chunk-2",
+        "legal/toyota_tax_policy.md::chunk-5",
+        "legal/toyota_tax_policy.md::chunk-8",
+        "legal/toyota_tax_policy.md::chunk-6"
+      ],
+      "source_paths": [
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md"
+      ],
+      "retrieved_contexts": [
+        "◼  Governance\nTax compliance falls under the responsibility of the Chief Financial Officer. Across our businesses, Toyota\nensures oversight and governance of tax matters through internal review and approval procedures by\nmembers of the Regional Tax Function, local entities and Executive Boards where appropriate,\nconsistent with our risk management framework.\nWhen we face tax issues, Toyota Motor Corporation or its Regional headquarters in cooperation with",
+        "2.  Tax Principles\n◼  Compliance\nToyota complies with local applicable laws and regulations in all  jurisdictions in which we operate our\nbusiness  as well as relevant  international tax standards, such as the OECD Transfer Pricing Guidelines,\narm’s-length standards, as established by international organizations. In addition, Toyota  structures its\nnormal  business  operations  consistent  with  our  low  tolerance  for  tax  risk  and  does  not  plan  into  tax",
+        "each applicable local entity, will seek to resolve them in a timely fashion. At the same time, we define\nhighly important issues based on business criteria. These issues are reported and evaluated in our board\nof directors’ meeting regularly. These issues are reported to Audit and Supervisory Committee\nregularly as well.\nToyota is committed to educating its employees on complying with its tax policy through trainings and e-\nlearnings.",
+        "◼  Good relationship with tax authorities\nWe seek to develop and maintain good relationships with tax authorities by being open, constructive\nand transparent, based on integrity and mutual trust and respect.\nWhere there is a difference of opinion between the tax authorities and Toyota on a particular tax matter\ndue to the complexity of the tax laws and regulations, Toyota seeks to work collaboratively with the tax",
+        "learnings.\nWe value tax transparency by actively strengthening tax governance throughout the Toyota organization\nby partnering with our business divisions and through strict internal controls and high standards."
+      ],
+      "latency_seconds": 0.09,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_13",
+      "category": "policy",
+      "question": "Who is responsible for Toyota's tax compliance?",
+      "config": "B",
+      "expected_source": "toyota_tax_policy.md",
+      "expected_context": "Tax compliance falls under the responsibility of the Chief Financial Officer.",
+      "source_rank": 1,
+      "evidence_rank": 3,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_tax_policy.md::chunk-8",
+        "legal/toyota_tax_policy.md::chunk-2",
+        "legal/toyota_tax_policy.md::chunk-4",
+        "legal/toyota_global_abac_policy.md::chunk-20",
+        "legal/toyota_tax_policy.md::chunk-5"
+      ],
+      "source_paths": [
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md",
+        "toyota_global_abac_policy.md",
+        "toyota_tax_policy.md"
+      ],
+      "retrieved_contexts": [
+        "◼  Good relationship with tax authorities\nWe seek to develop and maintain good relationships with tax authorities by being open, constructive\nand transparent, based on integrity and mutual trust and respect.\nWhere there is a difference of opinion between the tax authorities and Toyota on a particular tax matter\ndue to the complexity of the tax laws and regulations, Toyota seeks to work collaboratively with the tax",
+        "2.  Tax Principles\n◼  Compliance\nToyota complies with local applicable laws and regulations in all  jurisdictions in which we operate our\nbusiness  as well as relevant  international tax standards, such as the OECD Transfer Pricing Guidelines,\narm’s-length standards, as established by international organizations. In addition, Toyota  structures its\nnormal  business  operations  consistent  with  our  low  tolerance  for  tax  risk  and  does  not  plan  into  tax",
+        "◼  Governance\nTax compliance falls under the responsibility of the Chief Financial Officer. Across our businesses, Toyota\nensures oversight and governance of tax matters through internal review and approval procedures by\nmembers of the Regional Tax Function, local entities and Executive Boards where appropriate,\nconsistent with our risk management framework.\nWhen we face tax issues, Toyota Motor Corporation or its Regional headquarters in cooperation with",
+        "business, you are responsible for determining, by taking reasonable steps, whether you are\n\ninteracting with a government official. Be aware that in certain countries, a person who may appear\n\nto be working for a private entity may be in fact considered a government official. If you are not sure\n\nif someone is a government official, please contact a Help Resource.\n\nB.  Payments Made in Response to Threats",
+        "each applicable local entity, will seek to resolve them in a timely fashion. At the same time, we define\nhighly important issues based on business criteria. These issues are reported and evaluated in our board\nof directors’ meeting regularly. These issues are reported to Audit and Supervisory Committee\nregularly as well.\nToyota is committed to educating its employees on complying with its tax policy through trainings and e-\nlearnings."
+      ],
+      "latency_seconds": 0.181,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_14",
+      "category": "policy",
+      "question": "How does Toyota educate employees about complying with its tax policy?",
+      "config": "A",
+      "expected_source": "toyota_tax_policy.md",
+      "expected_context": "Toyota is committed to educating its employees on complying with its tax policy through trainings and e- learnings.",
+      "source_rank": 1,
+      "evidence_rank": 1,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_tax_policy.md::chunk-5",
+        "legal/toyota_tax_policy.md::chunk-2",
+        "legal/toyota_tax_policy.md::chunk-0",
+        "legal/toyota_tax_policy.md::chunk-6",
+        "legal/toyota_tax_policy.md::chunk-4"
+      ],
+      "source_paths": [
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md"
+      ],
+      "retrieved_contexts": [
+        "each applicable local entity, will seek to resolve them in a timely fashion. At the same time, we define\nhighly important issues based on business criteria. These issues are reported and evaluated in our board\nof directors’ meeting regularly. These issues are reported to Audit and Supervisory Committee\nregularly as well.\nToyota is committed to educating its employees on complying with its tax policy through trainings and e-\nlearnings.",
+        "2.  Tax Principles\n◼  Compliance\nToyota complies with local applicable laws and regulations in all  jurisdictions in which we operate our\nbusiness  as well as relevant  international tax standards, such as the OECD Transfer Pricing Guidelines,\narm’s-length standards, as established by international organizations. In addition, Toyota  structures its\nnormal  business  operations  consistent  with  our  low  tolerance  for  tax  risk  and  does  not  plan  into  tax",
+        "Our Tax Policy\n\n1.  Overview of Our Concept of Tax Payments\nToyota’s founding philosophy was to contribute to the national economy by establishing an automobile\nindustry, by “enriching people’s lives through car making” and “creating employment and enriching the\nlocal economy by paying taxes as a locally rooted company”.",
+        "learnings.\nWe value tax transparency by actively strengthening tax governance throughout the Toyota organization\nby partnering with our business divisions and through strict internal controls and high standards.",
+        "◼  Governance\nTax compliance falls under the responsibility of the Chief Financial Officer. Across our businesses, Toyota\nensures oversight and governance of tax matters through internal review and approval procedures by\nmembers of the Regional Tax Function, local entities and Executive Boards where appropriate,\nconsistent with our risk management framework.\nWhen we face tax issues, Toyota Motor Corporation or its Regional headquarters in cooperation with"
+      ],
+      "latency_seconds": 0.113,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_14",
+      "category": "policy",
+      "question": "How does Toyota educate employees about complying with its tax policy?",
+      "config": "B",
+      "expected_source": "toyota_tax_policy.md",
+      "expected_context": "Toyota is committed to educating its employees on complying with its tax policy through trainings and e- learnings.",
+      "source_rank": 1,
+      "evidence_rank": 1,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_tax_policy.md::chunk-5",
+        "legal/toyota_tax_policy.md::chunk-2",
+        "legal/toyota_tax_policy.md::chunk-4",
+        "legal/toyota_tax_policy.md::chunk-6",
+        "legal/toyota_tax_policy.md::chunk-8"
+      ],
+      "source_paths": [
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md"
+      ],
+      "retrieved_contexts": [
+        "each applicable local entity, will seek to resolve them in a timely fashion. At the same time, we define\nhighly important issues based on business criteria. These issues are reported and evaluated in our board\nof directors’ meeting regularly. These issues are reported to Audit and Supervisory Committee\nregularly as well.\nToyota is committed to educating its employees on complying with its tax policy through trainings and e-\nlearnings.",
+        "2.  Tax Principles\n◼  Compliance\nToyota complies with local applicable laws and regulations in all  jurisdictions in which we operate our\nbusiness  as well as relevant  international tax standards, such as the OECD Transfer Pricing Guidelines,\narm’s-length standards, as established by international organizations. In addition, Toyota  structures its\nnormal  business  operations  consistent  with  our  low  tolerance  for  tax  risk  and  does  not  plan  into  tax",
+        "◼  Governance\nTax compliance falls under the responsibility of the Chief Financial Officer. Across our businesses, Toyota\nensures oversight and governance of tax matters through internal review and approval procedures by\nmembers of the Regional Tax Function, local entities and Executive Boards where appropriate,\nconsistent with our risk management framework.\nWhen we face tax issues, Toyota Motor Corporation or its Regional headquarters in cooperation with",
+        "learnings.\nWe value tax transparency by actively strengthening tax governance throughout the Toyota organization\nby partnering with our business divisions and through strict internal controls and high standards.",
+        "◼  Good relationship with tax authorities\nWe seek to develop and maintain good relationships with tax authorities by being open, constructive\nand transparent, based on integrity and mutual trust and respect.\nWhere there is a difference of opinion between the tax authorities and Toyota on a particular tax matter\ndue to the complexity of the tax laws and regulations, Toyota seeks to work collaboratively with the tax"
+      ],
+      "latency_seconds": 0.211,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_15",
+      "category": "policy",
+      "question": "How does Toyota seek to eliminate double taxation when it occurs?",
+      "config": "A",
+      "expected_source": "toyota_tax_policy.md",
+      "expected_context": "When we face double taxation, we seek to eliminate it by applying available tax relief systems in each country or the mutual agreement procedure regulated in the tax treaties.",
+      "source_rank": 1,
+      "evidence_rank": 5,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_tax_policy.md::chunk-10",
+        "legal/toyota_tax_policy.md::chunk-0",
+        "legal/toyota_tax_policy.md::chunk-2",
+        "legal/toyota_tax_policy.md::chunk-1",
+        "legal/toyota_tax_policy.md::chunk-11"
+      ],
+      "source_paths": [
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md"
+      ],
+      "retrieved_contexts": [
+        "be necessary for these differences in interpretation to proceed to national or supranational resolution\nprocedures to clarify the interpretation of the law.\n\n◼  Prevention and elimination of double taxation\nToyota adheres to the arm’s length principles as defined by the OECD and allocates income according to\nbusiness functions and risks appropriately in order to prevent double taxation.",
+        "Our Tax Policy\n\n1.  Overview of Our Concept of Tax Payments\nToyota’s founding philosophy was to contribute to the national economy by establishing an automobile\nindustry, by “enriching people’s lives through car making” and “creating employment and enriching the\nlocal economy by paying taxes as a locally rooted company”.",
+        "2.  Tax Principles\n◼  Compliance\nToyota complies with local applicable laws and regulations in all  jurisdictions in which we operate our\nbusiness  as well as relevant  international tax standards, such as the OECD Transfer Pricing Guidelines,\narm’s-length standards, as established by international organizations. In addition, Toyota  structures its\nnormal  business  operations  consistent  with  our  low  tolerance  for  tax  risk  and  does  not  plan  into  tax",
+        "Toyota will seek  to achieve  sustainable results  through the Toyota Production System (“TPS”) and cost\nreduction, and commits to its responsibility to making the appropriate tax payments as the most basic\nform of social contribution in the communities in which Toyota conducts its operations.",
+        "When we face double taxation, we seek to eliminate it by applying  available tax relief systems in each\ncountry or the mutual agreement procedure regulated in the tax treaties.\n\nEnd"
+      ],
+      "latency_seconds": 0.113,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_15",
+      "category": "policy",
+      "question": "How does Toyota seek to eliminate double taxation when it occurs?",
+      "config": "B",
+      "expected_source": "toyota_tax_policy.md",
+      "expected_context": "When we face double taxation, we seek to eliminate it by applying available tax relief systems in each country or the mutual agreement procedure regulated in the tax treaties.",
+      "source_rank": 1,
+      "evidence_rank": 2,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "legal/toyota_tax_policy.md::chunk-10",
+        "legal/toyota_tax_policy.md::chunk-11",
+        "legal/toyota_tax_policy.md::chunk-1",
+        "legal/toyota_tax_policy.md::chunk-0",
+        "legal/toyota_tax_policy.md::chunk-2"
+      ],
+      "source_paths": [
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md",
+        "toyota_tax_policy.md"
+      ],
+      "retrieved_contexts": [
+        "be necessary for these differences in interpretation to proceed to national or supranational resolution\nprocedures to clarify the interpretation of the law.\n\n◼  Prevention and elimination of double taxation\nToyota adheres to the arm’s length principles as defined by the OECD and allocates income according to\nbusiness functions and risks appropriately in order to prevent double taxation.",
+        "When we face double taxation, we seek to eliminate it by applying  available tax relief systems in each\ncountry or the mutual agreement procedure regulated in the tax treaties.\n\nEnd",
+        "Toyota will seek  to achieve  sustainable results  through the Toyota Production System (“TPS”) and cost\nreduction, and commits to its responsibility to making the appropriate tax payments as the most basic\nform of social contribution in the communities in which Toyota conducts its operations.",
+        "Our Tax Policy\n\n1.  Overview of Our Concept of Tax Payments\nToyota’s founding philosophy was to contribute to the national economy by establishing an automobile\nindustry, by “enriching people’s lives through car making” and “creating employment and enriching the\nlocal economy by paying taxes as a locally rooted company”.",
+        "2.  Tax Principles\n◼  Compliance\nToyota complies with local applicable laws and regulations in all  jurisdictions in which we operate our\nbusiness  as well as relevant  international tax standards, such as the OECD Transfer Pricing Guidelines,\narm’s-length standards, as established by international organizations. In addition, Toyota  structures its\nnormal  business  operations  consistent  with  our  low  tolerance  for  tax  risk  and  does  not  plan  into  tax"
+      ],
+      "latency_seconds": 0.188,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_16",
+      "category": "source_confusion",
+      "question": "In Toyota's 2023 cloud settings incident notice, were vehicle location and credit card data included in the exposed information?",
+      "config": "A",
+      "expected_source": "article_01.md",
+      "expected_context": "Vehicle location, credit card information, etc., are not included in this incident",
+      "source_rank": 1,
+      "evidence_rank": null,
+      "evidence_coverage": 0.417,
+      "source_ids": [
+        "news/article_01.md::chunk-58",
+        "news/article_01.md::chunk-56",
+        "news/article_01.md::chunk-0",
+        "news/article_01.md::chunk-68",
+        "news/article_01.md::chunk-71"
+      ],
+      "source_paths": [
+        "article_01.md",
+        "article_01.md",
+        "article_01.md",
+        "article_01.md",
+        "article_01.md"
+      ],
+      "retrieved_contexts": [
+        "On May 12, Toyota Motor Corporation (TMC) announced \"[Apology and Notice Concerning Potential Data Leakage of of Customer Information Due to Misconfiguration of Cloud Environment (Japanese only)](https://global.toyota/jp/newsroom/corporate/39174380.html)\" Subsequently, we conducted an investigation for all cloud environments managed by TOYOTA Connected Corporation (TC). It was further discovered that a part of the data containing customer information had been potentially accessible externally",
+        "### SEARCH BY KEYWORD\nClear\nMay 31, 2023\n# Apology and Notice Concerning Newly Discovered Potential Data Leakage of Customer Information Due to Cloud Settings\n[Announcement](https://global.toyota/en/newsroom/corporate/39241625.html)\n[Print](https://global.toyota/en/newsroom/corporate/39241625.html)",
+        "# Apology and Notice Concerning Newly Discovered Potential Data Leakage of Customer Information Due to Cloud Settings | Corporate | Global Newsroom | Toyota Motor Corporation Official Global Website\n\n**Source:** https://global.toyota/en/newsroom/corporate/39241625.html\n\n**Crawled:** 2026-09-25T03:53:17.212201+00:00\n\n---",
+        "| CT  | January 2011 - December 2013  |  \n| RX  | January 2009 - September 2015  |  \n |  \n| Period that the cloud environments were potentially accessible externally  | February 9, 2015 - May 12, 2023  \nIn principle, the above customer information is automatically deleted from the cloud environment within a short period of time after the map data is distributed and is not continuously stored or accumulated during the above period.  |",
+        "| Customer information that may have been potentially accessible externally  | Address, Name, Phone number, Email address, Customer ID, Vehicle registration number, Vehicle Identification Number For impacted customers, not all but some of the above information is included depending on the inquiry file.  |  \n| --- | --- |  \n| Regions  | Some countries in Asia and Oceania (Japan is not included)  |  \n| Period that the site was potentially accessible externally  | October 2016 - May 2023  |"
+      ],
+      "latency_seconds": 0.117,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_16",
+      "category": "source_confusion",
+      "question": "In Toyota's 2023 cloud settings incident notice, were vehicle location and credit card data included in the exposed information?",
+      "config": "B",
+      "expected_source": "article_01.md",
+      "expected_context": "Vehicle location, credit card information, etc., are not included in this incident",
+      "source_rank": 1,
+      "evidence_rank": null,
+      "evidence_coverage": 0.417,
+      "source_ids": [
+        "news/article_01.md::chunk-56",
+        "news/article_01.md::chunk-0",
+        "news/article_01.md::chunk-68",
+        "news/article_01.md::chunk-71",
+        "news/article_01.md::chunk-58"
+      ],
+      "source_paths": [
+        "article_01.md",
+        "article_01.md",
+        "article_01.md",
+        "article_01.md",
+        "article_01.md"
+      ],
+      "retrieved_contexts": [
+        "### SEARCH BY KEYWORD\nClear\nMay 31, 2023\n# Apology and Notice Concerning Newly Discovered Potential Data Leakage of Customer Information Due to Cloud Settings\n[Announcement](https://global.toyota/en/newsroom/corporate/39241625.html)\n[Print](https://global.toyota/en/newsroom/corporate/39241625.html)",
+        "# Apology and Notice Concerning Newly Discovered Potential Data Leakage of Customer Information Due to Cloud Settings | Corporate | Global Newsroom | Toyota Motor Corporation Official Global Website\n\n**Source:** https://global.toyota/en/newsroom/corporate/39241625.html\n\n**Crawled:** 2026-09-25T03:53:17.212201+00:00\n\n---",
+        "| CT  | January 2011 - December 2013  |  \n| RX  | January 2009 - September 2015  |  \n |  \n| Period that the cloud environments were potentially accessible externally  | February 9, 2015 - May 12, 2023  \nIn principle, the above customer information is automatically deleted from the cloud environment within a short period of time after the map data is distributed and is not continuously stored or accumulated during the above period.  |",
+        "| Customer information that may have been potentially accessible externally  | Address, Name, Phone number, Email address, Customer ID, Vehicle registration number, Vehicle Identification Number For impacted customers, not all but some of the above information is included depending on the inquiry file.  |  \n| --- | --- |  \n| Regions  | Some countries in Asia and Oceania (Japan is not included)  |  \n| Period that the site was potentially accessible externally  | October 2016 - May 2023  |",
+        "On May 12, Toyota Motor Corporation (TMC) announced \"[Apology and Notice Concerning Potential Data Leakage of of Customer Information Due to Misconfiguration of Cloud Environment (Japanese only)](https://global.toyota/jp/newsroom/corporate/39174380.html)\" Subsequently, we conducted an investigation for all cloud environments managed by TOYOTA Connected Corporation (TC). It was further discovered that a part of the data containing customer information had been potentially accessible externally"
+      ],
+      "latency_seconds": 0.209,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_17",
+      "category": "semantic",
+      "question": "Could the Lexus multimedia vulnerabilities described by Keen Lab take over steering, braking, or throttle?",
+      "config": "A",
+      "expected_source": "article_02.md",
+      "expected_context": "The vulnerability findings and exploit process, as described by Keen Lab, do not control steering, braking, or throttle.",
+      "source_rank": 1,
+      "evidence_rank": 1,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "news/article_02.md::chunk-61",
+        "news/article_02.md::chunk-65",
+        "news/article_02.md::chunk-60",
+        "news/article_02.md::chunk-62",
+        "news/article_02.md::chunk-64"
+      ],
+      "source_paths": [
+        "article_02.md",
+        "article_02.md",
+        "article_02.md",
+        "article_02.md",
+        "article_02.md"
+      ],
+      "retrieved_contexts": [
+        ". Based on Toyota's investigation, operation of certain vehicle functions in certain Lexus and Toyota vehicles equipped with particular multimedia units could occur if the identified vulnerabilities in the Bluetooth function are exploited. The vulnerability findings and exploit process, as described by Keen Lab, do not control steering, braking, or throttle.",
+        "For details of Keen Lab's research, please visit\n     <https://keenlab.tencent.com/en/2020/03/30/Tencent-Keen-Security-Lab-Experimental-Security-Assessment-on-Lexus-Cars/>\n[ PDF ](https://global.toyota/en/newsroom/corporate/32120629.html)",
+        "As part of that engagement, Toyota learned from Keen Lab that they discovered vulnerabilities in certain Lexus vehicles in the market. Toyota reproduced Keen Lab's research results based on the information they provided and using the advanced scripts that they developed",
+        "The exploitation of these vulnerabilities requires specific knowledge and expertise of the multimedia system software, a special tool, and maintaining close proximity to a vehicle for an extended period during any attempt to compromise the multimedia system. Thus, Toyota believes that exploiting these vulnerabilities in the manner developed by Keen Lab is extremely sophisticated, and the likelihood of this condition to occur in the real world is limited.",
+        "With customer safety and security being a top priority, Toyota works to enhance the performance of its vehicle and enterprise cybersecurity, including by proactively conducting security testing in coordination with specialized external entities. Toyota acknowledges Keen Lab's contribution in identifying this vulnerability. Toyota takes the discovery by Keen Lab seriously and will continue to enhance the cyber protections of its vehicles."
+      ],
+      "latency_seconds": 0.101,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_17",
+      "category": "semantic",
+      "question": "Could the Lexus multimedia vulnerabilities described by Keen Lab take over steering, braking, or throttle?",
+      "config": "B",
+      "expected_source": "article_02.md",
+      "expected_context": "The vulnerability findings and exploit process, as described by Keen Lab, do not control steering, braking, or throttle.",
+      "source_rank": 1,
+      "evidence_rank": 1,
+      "evidence_coverage": 1.0,
+      "source_ids": [
+        "news/article_02.md::chunk-61",
+        "news/article_02.md::chunk-62",
+        "news/article_02.md::chunk-60",
+        "news/article_02.md::chunk-64",
+        "news/article_02.md::chunk-63"
+      ],
+      "source_paths": [
+        "article_02.md",
+        "article_02.md",
+        "article_02.md",
+        "article_02.md",
+        "article_02.md"
+      ],
+      "retrieved_contexts": [
+        ". Based on Toyota's investigation, operation of certain vehicle functions in certain Lexus and Toyota vehicles equipped with particular multimedia units could occur if the identified vulnerabilities in the Bluetooth function are exploited. The vulnerability findings and exploit process, as described by Keen Lab, do not control steering, braking, or throttle.",
+        "The exploitation of these vulnerabilities requires specific knowledge and expertise of the multimedia system software, a special tool, and maintaining close proximity to a vehicle for an extended period during any attempt to compromise the multimedia system. Thus, Toyota believes that exploiting these vulnerabilities in the manner developed by Keen Lab is extremely sophisticated, and the likelihood of this condition to occur in the real world is limited.",
+        "As part of that engagement, Toyota learned from Keen Lab that they discovered vulnerabilities in certain Lexus vehicles in the market. Toyota reproduced Keen Lab's research results based on the information they provided and using the advanced scripts that they developed",
+        "With customer safety and security being a top priority, Toyota works to enhance the performance of its vehicle and enterprise cybersecurity, including by proactively conducting security testing in coordination with specialized external entities. Toyota acknowledges Keen Lab's contribution in identifying this vulnerability. Toyota takes the discovery by Keen Lab seriously and will continue to enhance the cyber protections of its vehicles.",
+        "Toyota has already implemented measures to address the vulnerabilities in the vehicles currently being produced. For certain in-market vehicles equipped with the specific multimedia units, owners can update the software.\nConnected vehicles will play an ever-increasing role in providing safer and more secure mobility services. As connected functions become more advanced and diverse, the need for robust vehicle cybersecurity is one of the most-important issues facing the automotive industry."
+      ],
+      "latency_seconds": 0.215,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_18",
+      "category": "source_confusion",
+      "question": "In Toyota's recurrence prevention report to MLIT, which executive role oversees certification decisions rather than development decisions?",
+      "config": "A",
+      "expected_source": "article_03.md",
+      "expected_context": "The Chief Technology Officer (CTO) will be the person responsible for overall decision-making regarding development, and the Global Chief Quality Officer (G-CQO) will be responsible for overall decision-making regarding certification.",
+      "source_rank": 1,
+      "evidence_rank": null,
+      "evidence_coverage": 0.381,
+      "source_ids": [
+        "news/article_03.md::chunk-58",
+        "news/article_03.md::chunk-59",
+        "news/article_03.md::chunk-65",
+        "news/article_03.md::chunk-89",
+        "news/article_03.md::chunk-60"
+      ],
+      "source_paths": [
+        "article_03.md",
+        "article_03.md",
+        "article_03.md",
+        "article_03.md",
+        "article_03.md"
+      ],
+      "retrieved_contexts": [
+        "Toyota Motor Corporation (Toyota) submitted a report on measures to prevent recurrence to the Ministry of Land, Infrastructure, Transport and Tourism (MLIT) today in light of the corrective order issued to model certificate applications by MLIT on July 31.  \nToyota will make company-wide efforts to prevent recurrence based on the points provided by the MLIT at the time of the corrective order.",
+        "With the suggestions by the MLIT, Toyota has recognized that management was not sufficiently involved in the certification operations, and that there were many areas for improvement in the foundation of its certification operations, such as the data management system and the establishment of clearer rules and procedures.",
+        "* Clarify where responsibility and authority are located when carrying out development and certification work, and create indicators for the progress of development and the impact on certification. We will also establish a system that enables Chief Engineer to grasp the presence or absence of abnormalities and report them to the president of vehicle company and the person in charge of certification",
+        "Toyota is committed to creating an environment in which correct certification operations in accordance to the rules can be carried out based on the three pillars of \"Human Development\", \"Manufacturing\" and \"Strengthening the Foundation\". \n\n![Sustainable Development Goals](https://global.toyota/pages/global_toyota/sustainability/sdgs/sdgs_logo_2.png)",
+        "Toyota will review the mechanisms and systems designed to implement proper certification operations, notice something abnormal, and take action promptly through the joint effort between the management and those on-site.\nIn the medium to long term, through the Toyota Production System (TPS), we will clarify the workflow from planning, development to certification, incorporate Toyota's kaizen into certification operations, and foster common values and improvements across the Toyota Group."
+      ],
+      "latency_seconds": 0.106,
+      "gold_evidence_indexed": true
+    },
+    {
+      "id": "case_18",
+      "category": "source_confusion",
+      "question": "In Toyota's recurrence prevention report to MLIT, which executive role oversees certification decisions rather than development decisions?",
+      "config": "B",
+      "expected_source": "article_03.md",
+      "expected_context": "The Chief Technology Officer (CTO) will be the person responsible for overall decision-making regarding development, and the Global Chief Quality Officer (G-CQO) will be responsible for overall decision-making regarding certification.",
+      "source_rank": 1,
+      "evidence_rank": null,
+      "evidence_coverage": 0.381,
+      "source_ids": [
+        "news/article_03.md::chunk-89",
+        "news/article_03.md::chunk-59",
+        "news/article_03.md::chunk-65",
+        "news/article_03.md::chunk-60",
+        "news/article_03.md::chunk-58"
+      ],
+      "source_paths": [
+        "article_03.md",
+        "article_03.md",
+        "article_03.md",
+        "article_03.md",
+        "article_03.md"
+      ],
+      "retrieved_contexts": [
+        "Toyota is committed to creating an environment in which correct certification operations in accordance to the rules can be carried out based on the three pillars of \"Human Development\", \"Manufacturing\" and \"Strengthening the Foundation\". \n\n![Sustainable Development Goals](https://global.toyota/pages/global_toyota/sustainability/sdgs/sdgs_logo_2.png)",
+        "With the suggestions by the MLIT, Toyota has recognized that management was not sufficiently involved in the certification operations, and that there were many areas for improvement in the foundation of its certification operations, such as the data management system and the establishment of clearer rules and procedures.",
+        "* Clarify where responsibility and authority are located when carrying out development and certification work, and create indicators for the progress of development and the impact on certification. We will also establish a system that enables Chief Engineer to grasp the presence or absence of abnormalities and report them to the president of vehicle company and the person in charge of certification",
+        "Toyota will review the mechanisms and systems designed to implement proper certification operations, notice something abnormal, and take action promptly through the joint effort between the management and those on-site.\nIn the medium to long term, through the Toyota Production System (TPS), we will clarify the workflow from planning, development to certification, incorporate Toyota's kaizen into certification operations, and foster common values and improvements across the Toyota Group.",
+        "Toyota Motor Corporation (Toyota) submitted a report on measures to prevent recurrence to the Ministry of Land, Infrastructure, Transport and Tourism (MLIT) today in light of the corrective order issued to model certificate applications by MLIT on July 31.  \nToyota will make company-wide efforts to prevent recurrence based on the points provided by the MLIT at the time of the corrective order."
+      ],
+      "latency_seconds": 0.206,
+      "gold_evidence_indexed": true
+    }
+  ]
+}
