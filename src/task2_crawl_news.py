@@ -15,31 +15,42 @@ Cài browser trước khi chạy:
 
 import asyncio
 import json
+from datetime import datetime, timezone
 from pathlib import Path
 
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "landing" / "news"
 
 ARTICLE_URLS = [
-    # TODO: Thêm ít nhất 5 public URL.
+    "https://global.toyota/en/newsroom/corporate/39241625.html",
+    "https://global.toyota/en/newsroom/corporate/32120629.html",
+    "https://global.toyota/en/newsroom/corporate/41363981.html",
+    "https://global.toyota/en/newsroom/corporate/40554519.html",
+    "https://global.toyota/en/newsroom/corporate/42267575.html",
 ]
 
 
 async def crawl_article(url: str) -> dict:
-    # TODO: Implement crawling logic.
-    #
-    # from datetime import datetime
-    # from crawl4ai import AsyncWebCrawler
-    #
-    # async with AsyncWebCrawler() as crawler:
-    #     result = await crawler.arun(url=url)
-    #     return {
-    #         "url": url,
-    #         "title": result.metadata.get("title", "Unknown"),
-    #         "date_crawled": datetime.now().isoformat(),
-    #         "content_markdown": result.markdown,
-    #     }
-    raise NotImplementedError("Implement crawl_article")
+    """Crawl one public article and return the required landing metadata."""
+    from crawl4ai import AsyncWebCrawler
+
+    async with AsyncWebCrawler() as crawler:
+        result = await crawler.arun(url=url)
+
+    if not result.success:
+        raise RuntimeError(result.error_message or "Crawler returned an unsuccessful result")
+
+    metadata = result.metadata or {}
+    content_markdown = str(result.markdown).strip()
+    if not content_markdown:
+        raise ValueError("Crawler returned empty article content")
+
+    return {
+        "url": url,
+        "title": metadata.get("title") or "Unknown",
+        "date_crawled": datetime.now(timezone.utc).isoformat(),
+        "content_markdown": content_markdown,
+    }
 
 
 async def crawl_all() -> None:

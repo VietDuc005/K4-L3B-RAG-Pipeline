@@ -12,10 +12,10 @@ Giới hạn khuyến nghị: 1 trang, không chép lại README hoặc mô tả
 
 ## Thông tin
 
-- Họ và tên:
-- Mã học viên:
-- Nhóm:
-- Repository/branch:
+- Họ và tên: Dương Văn Thành
+- Mã học viên: 2A202602368
+- Nhóm: AIGAN
+- Repository/branch: 
 
 ## Phần việc đã thực hiện
 
